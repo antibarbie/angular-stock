@@ -1,0 +1,7483 @@
+{
+  "inventaire": [
+    {
+      "id": "2018-08-01",
+      "item": [
+        {
+          "ref": "LC91KWW60",
+          "qty": 2
+        },
+        {
+          "ref": "GS58NAW35",
+          "qty": 3
+        },
+        {
+          "ref": "HB672GBW1S",
+          "qty": 0
+        }
+      ]
+    },
+    {
+      "id": "2019-09-01",
+      "item": [
+        {
+          "ref": "WUQ28418FF",
+          "qty": 3
+        },
+        {
+          "ref": "WAN28066FF",
+          "qty": 4
+        },
+        {
+          "ref": "WAN28065FF",
+          "qty": 1
+        },
+        {
+          "ref": "WM14T458FF",
+          "qty": 2
+        },
+        {
+          "ref": "WTN85208FF",
+          "qty": 1
+        },
+        {
+          "ref": "WT45RV01FF",
+          "qty": 1
+        },
+        {
+          "ref": "WT45G408FF",
+          "qty": 2
+        },
+        {
+          "ref": "PKE645CA1E",
+          "qty": 1
+        },
+        {
+          "ref": "GSN29CW3V",
+          "qty": 1
+        },
+        {
+          "ref": "GSN33CW3V",
+          "qty": 1
+        },
+        {
+          "ref": "SMV46IX03E",
+          "qty": 2
+        },
+        {
+          "ref": "SMV46MX03E",
+          "qty": 1
+        },
+        {
+          "ref": "KIL22AF30",
+          "qty": 1
+        },
+        {
+          "ref": "KIN86VS30",
+          "qty": 1
+        },
+        {
+          "ref": "KGN36NW30",
+          "qty": 1
+        },
+        {
+          "ref": "HB573ABR0",
+          "qty": 1
+        },
+        {
+          "ref": "HM676G0S1F",
+          "qty": 1
+        },
+        {
+          "ref": "LC67BB532",
+          "qty": 1
+        },
+        {
+          "ref": "PUE631BB1E",
+          "qty": 1
+        },
+        {
+          "ref": "EX651FEB1F",
+          "qty": 1
+        },
+        {
+          "ref": "KTL15NW3A",
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "command": [
+    {
+      "id": 1,
+      "date": "2019-08-26",
+      "ref": "LC91KWW60",
+      "qty": "10",
+      "expected": false
+    },
+    {
+      "id": 2,
+      "date": "2019-08-29",
+      "ref": "GS58NAW35",
+      "qty": "10",
+      "expected": false
+    },
+    {
+      "id": 3,
+      "date": "2019-08-27",
+      "ref": "HB672GBW1S",
+      "qty": "1",
+      "expected": false
+    },
+    {
+      "ref": "HXR39IH20",
+      "qty": "1",
+      "expected": true,
+      "date": "2019-10-04",
+      "id": 4
+    },
+    {
+      "ref": "KD33VVW30",
+      "qty": "1",
+      "expected": true,
+      "date": "2019-10-06",
+      "id": 5
+    },
+    {
+      "ref": "HB672GBW1F",
+      "qty": "1",
+      "expected": true,
+      "date": "2019-10-06",
+      "id": 6
+    },
+    {
+      "ref": "KDV47VL30",
+      "qty": "2",
+      "expected": true,
+      "date": "2019-10-06",
+      "id": 7
+    },
+    {
+      "ref": "LZ27001",
+      "qty": "3",
+      "expected": true,
+      "date": "2019-10-06",
+      "id": 8
+    }
+  ],
+  "vente": [
+    {
+      "id": 1,
+      "date": "2019-08-30",
+      "ref": "LC91KWW60",
+      "qty": "2",
+      "pht": "420",
+      "pttc": "420"
+    },
+    {
+      "id": 2,
+      "date": "2019-08-30",
+      "ref": "GS58NAW35",
+      "qty": "3",
+      "pht": "420",
+      "pttc": "420"
+    },
+    {
+      "id": 3,
+      "date": "2019-08-30",
+      "ref": "GS58NAW35",
+      "qty": "1",
+      "pht": "5",
+      "pttc": "8"
+    },
+    {
+      "id": 4,
+      "date": "2019-08-29",
+      "ref": "LC91KWW60",
+      "qty": "4",
+      "pht": "420",
+      "pttc": "420"
+    },
+    {
+      "id": 5,
+      "date": "2019-08-28",
+      "ref": "LC91KWW60",
+      "qty": "5",
+      "pht": "420",
+      "pttc": "420"
+    },
+    {
+      "id": 6,
+      "date": "2019-08-27",
+      "ref": "HB672GBW1S",
+      "qty": "1",
+      "pht": "420",
+      "pttc": "420"
+    }
+    ,
+    {
+      "id": 7,
+      "date": "2019-10-01",
+      "ref": "WM14T458FF",
+      "qty": "1",
+      "pht": "349.20",
+      "pttc": "419.04"
+    }
+    ,
+    {
+      "id": 8,
+      "date": "2019-10-01",
+      "ref": "WT45G408FF",
+      "qty": "1",
+      "pht": "317.77",
+      "pttc": "381.32"
+    }
+    ,
+    {
+      "id": 9,
+      "date": "2019-10-03",
+      "ref": "WUQ28418FF",
+      "qty": "1",
+      "pht": "340.21",
+      "pttc": "408.25"
+    }
+    ,
+    {
+      "id": 10,
+      "date": "2019-10-04",
+      "ref": "PKE645CA1E",
+      "qty": "1",
+      "pht": "218.03",
+      "pttc": "261.64"
+    }
+    ,
+    {
+      "id": 11,
+      "date": "2019-10-04",
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "pht": "288.63",
+      "pttc": "346.36"
+    }
+    ,
+    {
+      "id": 12,
+      "date": "2019-10-05",
+      "ref": "HXR39IH20",
+      "qty": "1",
+      "pht": "380.45",
+      "pttc": "456.54"
+    }
+
+  ],
+  "produit": [
+    {
+      "id": "HM676G0W1F",
+      "ean": "4242003672013",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "HB672GBW1S",
+      "ean": "4242003814673",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB672GBW1F",
+      "ean": "4242003672549",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB675G5W1F",
+      "ean": "4242003671740",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB675GBW1F",
+      "ean": "4242003672624",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "LC97FVW60",
+      "ean": "4242003761274",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC91KWW60",
+      "ean": "4242003761106",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "CT636LEW1",
+      "ean": "4242003677872",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Machine à café encastrable"
+    },
+    {
+      "id": "BF634LGW1",
+      "ean": "4242003676424",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BF555LMW0",
+      "ean": "4242003805688",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "EX975KXW1E",
+      "ean": "4242003765685",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "GS58NAW35",
+      "ean": "4242003833094",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "D",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GS58NAW45",
+      "ean": "4242003833087",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "KD33VVW30",
+      "ean": "4242003540978",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KG39NVW35",
+      "ean": "4242003724910",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KG56NXW30",
+      "ean": "4242003736753",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "WD14H464FF",
+      "ean": "4242003828779",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lavante séchante hublot"
+    },
+    {
+      "id": "WD15G462FF",
+      "ean": "4242003819050",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lavante séchante hublot"
+    },
+    {
+      "id": "WK14D541FF",
+      "ean": "4242003722527",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lavante séchante intégrable"
+    },
+    {
+      "id": "WM14B211FF",
+      "ean": "4242003675489",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14N2X0FF",
+      "ean": "4242003770764",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14E270FF",
+      "ean": "4242003645642",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14W690FF",
+      "ean": "4242003681800",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14T458FF",
+      "ean": "4242003797563",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14T409FF",
+      "ean": "4242003805619",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14E277FF",
+      "ean": "4242003763780",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM12B211FF",
+      "ean": "4242003678749",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM12N260FF",
+      "ean": "4242003732069",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WS12L260FF",
+      "ean": "4242003827918",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WMH6Y892FF",
+      "ean": "4242003732151",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14N060FF",
+      "ean": "4242003732083",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WM14U940EU",
+      "ean": "4242003787557",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WI14W540FF",
+      "ean": "4242003770054",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge intégrable"
+    },
+    {
+      "id": "WI12A201FF",
+      "ean": "4242003722640",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave linge intégrable"
+    },
+    {
+      "id": "SR236W01ME",
+      "ean": "4242003818589",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SN558W09ME",
+      "ean": "4242003827130",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN536W03ME",
+      "ean": "4242003767757",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN236W03NE",
+      "ean": "4242003855195",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN215W02AE",
+      "ean": "4242003787625",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236W01GE",
+      "ean": "4242003793558",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN258W00TE",
+      "ean": "4242003800867",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236W03ME",
+      "ean": "4242003762554",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236W02GE",
+      "ean": "4242003782798",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236W03GE",
+      "ean": "4242003793930",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "WT43N207FF",
+      "ean": "4242003860953",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WT46G401FF",
+      "ean": "4242003771754",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WT43N200FF",
+      "ean": "4242003763902",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WT45G408FF",
+      "ean": "4242003861172",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WT33A200FF",
+      "ean": "4242003754498",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Sèche linge hublot évacuation"
+    },
+    {
+      "id": "WT45RV01FF",
+      "ean": "4242003838747",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WT45W461FF",
+      "ean": "4242003846797",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WT47W591FF",
+      "ean": "4242003831120",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WT45RVX0FF",
+      "ean": "4242003838334",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WT47W491FF",
+      "ean": "4242003832851",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "LZ27001",
+      "ean": "4242003680889",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Accessoires cuisson"
+    },
+    {
+      "id": "ET375FAB1E",
+      "ean": "4242003689073",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Accessoires cuisson"
+    },
+    {
+      "id": "BI630ENS1",
+      "ean": "4242003676646",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Accessoires cuisson"
+    },
+    {
+      "id": "BI630CNS1",
+      "ean": "4242003676561",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Accessoires cuisson"
+    },
+    {
+      "id": "HZ390522",
+      "ean": "4242003616024",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Autres"
+    },
+    {
+      "id": "HZ390512",
+      "ean": "4242003617755",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Autres"
+    },
+    {
+      "id": "ET475FYB1E",
+      "ean": "4242003689127",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Autres"
+    },
+    {
+      "id": "CM676GBS1",
+      "ean": "4242003658376",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "CM656GBS1",
+      "ean": "4242003658369",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "HN678G4S6",
+      "ean": "4242003672174",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "CM633GBS1",
+      "ean": "4242003658345",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "CM585AMS0",
+      "ean": "4242003805336",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "HM676G0S6",
+      "ean": "4242003739952",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "HM676G0S1F",
+      "ean": "4242003671993",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "HB553AER0",
+      "ean": "4242003799277",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HB557ABS0",
+      "ean": "4242003799338",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HB557A5S0",
+      "ean": "4242003799314",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HB573ABR0",
+      "ean": "4242003799352",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB675GBS1F",
+      "ean": "4242003672617",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB578BBS0",
+      "ean": "4242003799451",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB675GBS1",
+      "ean": "4242003672419",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB573ABV0",
+      "ean": "4242003799369",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB673GBS1F",
+      "ean": "4242003672570",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CB675GBS3",
+      "ean": "4242003836514",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB672GBS2",
+      "ean": "4242003861431",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB672GBS1F",
+      "ean": "4242003672532",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB578A0S0",
+      "ean": "4242003799413",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HR675GBS1",
+      "ean": "4242003786369",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB676G0S1F",
+      "ean": "4242003671764",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HB675G5S1F",
+      "ean": "4242003671733",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CD634GAS0",
+      "ean": "4242003833254",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "CS658GRS2",
+      "ean": "4242003839300",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "CS656GBS2",
+      "ean": "4242003839263",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "LC67BF532",
+      "ean": "4242003675724",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF959RB51",
+      "ean": "4242003688014",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LI64MA530",
+      "ean": "4242003717844",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC97BHM50",
+      "ean": "4242003805978",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC67BB532",
+      "ean": "4242003650295",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF959RB21",
+      "ean": "4242003795064",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LD97DBM60",
+      "ean": "4242003823378",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC97BF532",
+      "ean": "4242003675755",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC64PBC50",
+      "ean": "4242003801277",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC98KLV60",
+      "ean": "4242003761328",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF959RA51",
+      "ean": "4242003688342",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC97BC532",
+      "ean": "4242003650530",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LB88574",
+      "ean": "4242003681534",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC97BHP50",
+      "ean": "4242003832028",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF91BA582",
+      "ean": "4242003675779",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC96QFM50",
+      "ean": "4242003802076",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LB75564",
+      "ean": "4242003271865",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC87KHM60",
+      "ean": "4242003760994",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF16VA570",
+      "ean": "4242003761595",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC96BFM50",
+      "ean": "4242003805947",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LU63LCC50",
+      "ean": "4242003776438",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LB57574",
+      "ean": "4242003681497",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC87KHM20",
+      "ean": "4242003760987",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF16RH560",
+      "ean": "4242003738344",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC96BBC50",
+      "ean": "4242003797013",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LI97SA530",
+      "ean": "4242003723357",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LB53NAA30",
+      "ean": "4242003831700",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC67BHP50",
+      "ean": "4242003831731",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC98KLP60",
+      "ean": "4242003761311",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC94PBC50",
+      "ean": "4242003801307",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LI67SA680",
+      "ean": "4242003723500",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LB75565",
+      "ean": "4242003838402",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC98BA572",
+      "ean": "4242003675748",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LI67RC540",
+      "ean": "4242003723432",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LB55565",
+      "ean": "4242003838389",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC91BE542",
+      "ean": "4242003652039",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LI64MC520",
+      "ean": "4242003717868",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC97FQP60",
+      "ean": "4242003761175",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC91BA582",
+      "ean": "4242003675731",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LF98GA542",
+      "ean": "4242003650523",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "LC97FLV60",
+      "ean": "4242003761168",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "CT636LES6",
+      "ean": "4242003703595",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Machine à café encastrable"
+    },
+    {
+      "id": "CP565AGS0",
+      "ean": "4242003803912",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BF634LGS1",
+      "ean": "4242003676400",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BF555LMS0",
+      "ean": "4242003805718",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BF550LMR0",
+      "ean": "4242003805732",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BE555LMS0",
+      "ean": "4242003805695",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "BE634LGS1",
+      "ean": "4242003676363",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "BE550LMR0",
+      "ean": "4242003805749",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "EB6B5PB60",
+      "ean": "4242003687062",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EC9A5RB90",
+      "ean": "4242003742204",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EC7A5SB90",
+      "ean": "4242003742167",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EC7A5RB90",
+      "ean": "4242003676134",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EC6A5HB90",
+      "ean": "4242003741962",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EP9A6QB90",
+      "ean": "4242003674673",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EP7A6SB20",
+      "ean": "4242003690512",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EP6A6PB20",
+      "ean": "4242003742440",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EP7A6QB20",
+      "ean": "4242003742525",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EP6A2PB20",
+      "ean": "4242003742358",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EO6B6PB10",
+      "ean": "4242003687888",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EG6B5PB60",
+      "ean": "4242003768389",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EC7A5QB80",
+      "ean": "4242003742105",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EP6A6CB20",
+      "ean": "4242003742372",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "EE651BPB1E",
+      "ean": "4242003787212",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX652FEB1F",
+      "ean": "4242003757468",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX875LYV1E",
+      "ean": "4242003786338",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED851FSB1E",
+      "ean": "4242003691724",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX651LYC1F",
+      "ean": "4242003757987",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX875LX34E",
+      "ean": "4242003763988",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED659FJB1E",
+      "ean": "4242003697443",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX375FXB1E",
+      "ean": "4242003697405",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX751FJC1F",
+      "ean": "4242003760246",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED651FSB1E",
+      "ean": "4242003715925",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EU651BEB1E",
+      "ean": "4242003787199",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX651FEB1F",
+      "ean": "4242003757444",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX675LEV1F",
+      "ean": "4242003759158",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EU631BJB1E",
+      "ean": "4242003716601",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EH651BJB1E",
+      "ean": "4242003757383",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX651LEB1F",
+      "ean": "4242003757291",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX859FVC1E",
+      "ean": "4242003788684",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED851FSB5E",
+      "ean": "4242003828083",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX651FXC1E",
+      "ean": "4242003716793",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX851LYC1F",
+      "ean": "4242003758014",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EU651BJB1E",
+      "ean": "4242003787175",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED751FPB1F",
+      "ean": "4242003757307",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX275FXB1E",
+      "ean": "4242003701218",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX851LVC1F",
+      "ean": "4242003787540",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED651FSB5E",
+      "ean": "4242003827987",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EU631BCB1E",
+      "ean": "4242003716526",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX851FEC1F",
+      "ean": "4242003757994",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "ED651FJB1E",
+      "ean": "4242003715918",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EH651BEB1E",
+      "ean": "4242003748008",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX679FEC1F",
+      "ean": "4242003694305",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX975LXC1F",
+      "ean": "4242003717080",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EH375FBB1E",
+      "ean": "4242003691731",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EX659FEB1F",
+      "ean": "4242003757482",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "EO6B6YB10",
+      "ean": "4242003687949",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque mixte"
+    },
+    {
+      "id": "ET651BF17E",
+      "ean": "4242003614600",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "ET631BK17E",
+      "ean": "4242003616154",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "ET611HE17F",
+      "ean": "4242003855119",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "ET675FMP1E",
+      "ean": "4242003762899",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "ET645FFP1E",
+      "ean": "4242003764657",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "ET611HE17E",
+      "ean": "4242003640388",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "GI81NAC30",
+      "ean": "4242003731390",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "GI41NAC30",
+      "ean": "4242003731222",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "GU15DA55",
+      "ean": "4242003556214",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "GI11VAD30",
+      "ean": "4242003746295",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "KI41RAD30",
+      "ean": "4242003622254",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI32LAD30",
+      "ean": "4242003622445",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI31RAD30",
+      "ean": "4242003622384",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI22LAD30",
+      "ean": "4242003622773",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI81RAD30",
+      "ean": "4242003621660",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KU15RA65",
+      "ean": "4242003553350",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI24RX30",
+      "ean": "4242003652152",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KU15LA65",
+      "ean": "4242003553343",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI82LAD30",
+      "ean": "4242003621721",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI24RV21FF",
+      "ean": "4242003450543",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI51FAD30",
+      "ean": "4242003643723",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI24LX30",
+      "ean": "4242003652145",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI42LAD40",
+      "ean": "4242003619742",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI24LV21FF",
+      "ean": "4242003450239",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI42LAD30",
+      "ean": "4242003621776",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI21RAD30",
+      "ean": "4242003622742",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI28DA20",
+      "ean": "4242003363690",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 2ptes intégrable"
+    },
+    {
+      "id": "KI87VVF30",
+      "ean": "4242003674888",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI86VVS30",
+      "ean": "4242003674895",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI34VV21FF",
+      "ean": "4242003454916",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI86SAD30",
+      "ean": "4242003612071",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI77VVS30",
+      "ean": "4242003691830",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KG36VXI30S",
+      "ean": "4242003665602",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KG36NXI3A",
+      "ean": "4242003781197",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KG56NXI30",
+      "ean": "4242003736760",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KG36NAX3A",
+      "ean": "4242003809952",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KG49EVI4A",
+      "ean": "4242003832837",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KG39NVI35",
+      "ean": "4242003724897",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "SR736D11IE",
+      "ean": "4242003845622",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SR636X00ME",
+      "ean": "4242003822043",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SR656D00TE",
+      "ean": "4242003818022",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SR614X01CE",
+      "ean": "4242003821978",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SK26E221EU",
+      "ean": "4242003706350",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SR256I00TE",
+      "ean": "4242003819968",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SK26E821EU",
+      "ean": "4242003706367",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SN558S16TE",
+      "ean": "4242003800881",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN658D02IE",
+      "ean": "4242003800874",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN658X00ME",
+      "ean": "4242003776896",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN536S02GE",
+      "ean": "4242003784631",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN65D002EU",
+      "ean": "4242003647233",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN636X01KE",
+      "ean": "4242003767252",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN458S02ME",
+      "ean": "4242003767245",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN636X03IE",
+      "ean": "4242003767221",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SC76M541EU",
+      "ean": "4242003693247",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN636X01AE",
+      "ean": "4242003780534",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN558S09ME",
+      "ean": "4242003827246",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SX64D004EU",
+      "ean": "4242003647226",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN558B09ME",
+      "ean": "4242003827123",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN778D86TE",
+      "ean": "4242003844083",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN536S03ME",
+      "ean": "4242003774687",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN658X26TE",
+      "ean": "4242003800904",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SX736X19ME",
+      "ean": "4242003844601",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN536S01AE",
+      "ean": "4242003796795",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN736X19ME",
+      "ean": "4242003844571",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN658D02ME",
+      "ean": "4242003767207",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN536B03NE",
+      "ean": "4242003846414",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN636X03ME",
+      "ean": "4242003762431",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN678X36TE",
+      "ean": "4242003766958",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN636X02GE",
+      "ean": "4242003780541",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN658X03IE",
+      "ean": "4242003782545",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN578S36TE",
+      "ean": "4242003769317",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN658X02ME",
+      "ean": "4242003788011",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SN236I04ME",
+      "ean": "4242003826966",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I04NE",
+      "ean": "4242003845431",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I01KE",
+      "ean": "4242003776049",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I01IE",
+      "ean": "4242003776810",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN278I36TE",
+      "ean": "4242003769300",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I03KE",
+      "ean": "4242003802106",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "B",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I00ME",
+      "ean": "4242003776872",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I51KE",
+      "ean": "4242003860359",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SN236I00NE",
+      "ean": "4242003850299",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "GC+5SIEMOEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIECONGEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEMO",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIECONG",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIELVEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIECAV",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIELV",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEREFUS",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIELS",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEREFEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIELLSLEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEREF",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIELLSL",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEPVITEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEHOTEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEPVEREN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEFPYREN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEPINEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEFCATEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIEPGAZEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5SIECUI",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "SIE",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "BGL3ECO11",
+      "ean": "4242005070251",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BGBS4PET1",
+      "ean": "4242005202928",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BGB7331S",
+      "ean": "4242002959030",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BGLS4K432",
+      "ean": "4242005178230",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BGLS4HYG2",
+      "ean": "4242005200177",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BGL35300",
+      "ean": "4242005042548",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BZGL2A430",
+      "ean": "4242005161430",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BGBS4POW1",
+      "ean": "4242005200191",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BZGL2A310",
+      "ean": "4242005062423",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur avec sac"
+    },
+    {
+      "id": "BHN14090",
+      "ean": "4242002957005",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur main"
+    },
+    {
+      "id": "BGS5KSILS",
+      "ean": "4242005101788",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGS7MS64",
+      "ean": "4242005060818",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGS2POW1",
+      "ean": "4242005203260",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGS7RCL",
+      "ean": "4242002997933",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGS05X240",
+      "ean": "4242005195602",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGS41PET",
+      "ean": "4242005202300",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGC3U330",
+      "ean": "4242002927794",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BGC05AAA1",
+      "ean": "4242005076338",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Aspirateur sans sac"
+    },
+    {
+      "id": "BBS1114",
+      "ean": "4242005076963",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBH62860",
+      "ean": "4242005140503",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBH2P14L",
+      "ean": "4242005073832",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBH52550",
+      "ean": "4242002805375",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBH21830L",
+      "ean": "4242002992884",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBH32551",
+      "ean": "4242005109937",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBH216RIA",
+      "ean": "4242005134717",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BCHF216S",
+      "ean": "4242005183166",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "BBS1224",
+      "ean": "4242005076949",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "ASPIRATEUR Balais"
+    },
+    {
+      "id": "06008B7000",
+      "ean": "3165140920148",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "ASPIRATEUR Nettoyeur vapeur"
+    },
+    {
+      "id": "BIC630NS1",
+      "ean": "4242002813851",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Accessoires cuisson"
+    },
+    {
+      "id": "NEZ34VLA",
+      "ean": "4242002328591",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Autres"
+    },
+    {
+      "id": "HXR39IH20",
+      "ean": "4242005132836",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Cuisinière gaz"
+    },
+    {
+      "id": "HWS59IE50",
+      "ean": "4242005041374",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Cuisinière gaz"
+    },
+    {
+      "id": "HXR39IG20",
+      "ean": "4242005132812",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Cuisinière mixte"
+    },
+    {
+      "id": "HBN231S4",
+      "ean": "4242002810409",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBA553BR0",
+      "ean": "4242005030118",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBG655NS1",
+      "ean": "4242002807850",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBF154YS0",
+      "ean": "4242005047581",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "B",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBA5560S0",
+      "ean": "4242005056583",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBA553BV0",
+      "ean": "4242005056552",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBA553BA0",
+      "ean": "4242005056545",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HSG656XS1",
+      "ean": "4242002789125",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HRG636XS6",
+      "ean": "4242002808345",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "HBG672BB1F",
+      "ean": "4242002808758",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG675BB1F",
+      "ean": "4242002808666",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBB578BS0",
+      "ean": "4242005029044",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBA573ES0",
+      "ean": "4242005033935",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG675BB1",
+      "ean": "4242002808673",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBB574BS0",
+      "ean": "4242005056811",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HRG6769S6",
+      "ean": "4242002936963",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBA573BV0",
+      "ean": "4242005033911",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG6755S1F",
+      "ean": "4242002808024",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBA573EB0",
+      "ean": "4242005033928",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HRG6769S2F",
+      "ean": "4242002912738",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBA573BR0",
+      "ean": "4242005033898",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG6755B1F",
+      "ean": "4242002808017",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CMG636BW1",
+      "ean": "4242002807447",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HRG675BS1",
+      "ean": "4242002917498",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBA573BA0",
+      "ean": "4242005033881",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG6750S1F",
+      "ean": "4242002807966",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CMG636BS1",
+      "ean": "4242002789156",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG676ES6",
+      "ean": "4242002911335",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG672BW1S",
+      "ean": "4242005055760",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CMG636BB1",
+      "ean": "4242002807423",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG6769S1F",
+      "ean": "4242002808109",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG672BW1F",
+      "ean": "4242002808727",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CMG633BS1",
+      "ean": "4242002789149",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG6769B1F",
+      "ean": "4242002808093",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG672BS2",
+      "ean": "4242005180035",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CBG675BS3",
+      "ean": "4242005110827",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG6760S1F",
+      "ean": "4242002839967",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG672BS1F",
+      "ean": "4242002808734",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG675BS2",
+      "ean": "4242005180042",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG672BB1S",
+      "ean": "4242005055777",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "HBG675BS1F",
+      "ean": "4242002808642",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "CDG634AS0",
+      "ean": "4242005101740",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "DWF97RV60",
+      "ean": "4242002946580",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DUL63CC50",
+      "ean": "4242002968506",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DHL535C",
+      "ean": "4242002258461",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DEM66AC00",
+      "ean": "4242005041114",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB96FM50",
+      "ean": "4242005051137",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB66FM50",
+      "ean": "4242005036073",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWQ96DM50",
+      "ean": "4242005039623",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB098J50",
+      "ean": "4242002812458",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWP94BC60",
+      "ean": "4242005026791",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB097A50",
+      "ean": "4242002774640",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB97IM50",
+      "ean": "4242005039616",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWP94BC50",
+      "ean": "4242005032013",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DIB097A50",
+      "ean": "4242002768991",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB94BC50",
+      "ean": "4242005051090",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWP64BC60",
+      "ean": "4242005031979",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DIB091K50",
+      "ean": "4242002812205",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWB64BC50",
+      "ean": "4242005050994",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWP64BC50",
+      "ean": "4242005031450",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DHU626ML",
+      "ean": "4242005121687",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DUL63CC20",
+      "ean": "4242002968476",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWK97HM60",
+      "ean": "4242002946771",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DHL575C",
+      "ean": "4242002824345",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DHL555BL",
+      "ean": "4242005122455",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWK97HM20",
+      "ean": "4242002946764",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DHL555B",
+      "ean": "4242002258508",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DFM064W52",
+      "ean": "4242002872704",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DWK67HM60",
+      "ean": "4242002946696",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DHL545S",
+      "ean": "4242002258478",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "DFM064A51",
+      "ean": "4242002872667",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "CTL636ES1",
+      "ean": "4242002769226",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Machine à café encastrable"
+    },
+    {
+      "id": "CTL636EB1",
+      "ean": "4242002798264",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Machine à café encastrable"
+    },
+    {
+      "id": "BFL634GB1",
+      "ean": "4242002813752",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL554MS0",
+      "ean": "4242005038954",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL550MW0",
+      "ean": "4242005038909",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL550MB0",
+      "ean": "4242005038916",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "HMT75M551",
+      "ean": "4242002491653",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL634GW1",
+      "ean": "4242002813783",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL554MWO",
+      "ean": "4242005038978",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL550MS0",
+      "ean": "4242005038893",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL634GS1",
+      "ean": "4242002813769",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "BFL554MB0",
+      "ean": "4242005038985",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "HMT72M450",
+      "ean": "4242002418988",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Micro-ondes combi intégrable"
+    },
+    {
+      "id": "HMT72M420",
+      "ean": "4242002418971",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Micro-ondes combi intégrable"
+    },
+    {
+      "id": "BEL550MB0",
+      "ean": "4242005038923",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "BEL554MS0",
+      "ean": "4242005038992",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "BEL550MS0",
+      "ean": "4242005038930",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "PEE689CA1",
+      "ean": "4242002938189",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque électrique"
+    },
+    {
+      "id": "PEE389CF1",
+      "ean": "4242002938493",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque électrique"
+    },
+    {
+      "id": "PPP6A6B20",
+      "ean": "4242002914848",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PCI6A5B90",
+      "ean": "4242002802701",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PPP6A2B20",
+      "ean": "4242002914763",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PCC6A5B90",
+      "ean": "4242002802688",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PPC6A6B10",
+      "ean": "4242002914688",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PSB3A6B20",
+      "ean": "4242002811109",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PBC6B5B80",
+      "ean": "4242002821269",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PGP6B5B90",
+      "ean": "4242005119318",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PPP6A9B20",
+      "ean": "4242002914923",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PCC6A5B80",
+      "ean": "4242002914114",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PNP6B6B10",
+      "ean": "4242002928067",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PBP6B5B80",
+      "ean": "4242002831770",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PNC6B6B10",
+      "ean": "4242002928906",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PBP6B2B80",
+      "ean": "4242002832807",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PGP6B6B80",
+      "ean": "4242002937694",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PGP6B5B80",
+      "ean": "4242002937687",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "POP6B6B10",
+      "ean": "4242002834351",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PCQ7A5B80",
+      "ean": "4242002914428",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PBP6B6B80",
+      "ean": "4242002832920",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PCP6A5B90",
+      "ean": "4242002837468",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PPQ7A6B20",
+      "ean": "4242002802725",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PCP6A5B80",
+      "ean": "4242002914268",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "PVS631BB1E",
+      "ean": "4242002861722",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXJ631FC1E",
+      "ean": "4242002870984",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXY631DE3E",
+      "ean": "4242002942216",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PUJ631BB1E",
+      "ean": "4242002870717",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PIB375FB1E",
+      "ean": "4242002848631",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXE831FC1E",
+      "ean": "4242002942155",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXX631DC1E",
+      "ean": "4242002942193",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXE631FC1E",
+      "ean": "4242002870953",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXX375FB1E",
+      "ean": "4242002839738",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PVQ611BB5E",
+      "ean": "4242005088225",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXV875DV1E",
+      "ean": "4242002944289",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PVJ631BB1E",
+      "ean": "4242002870762",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXE651FC1E",
+      "ean": "4242002848822",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PVS631BB5E",
+      "ean": "4242005088706",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PUE631BB1E",
+      "ean": "4242002983004",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXE631DE3E",
+      "ean": "4242002953434",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PIJ631FB1E",
+      "ean": "4242002945675",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PUC651BB1E",
+      "ean": "4242002982977",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXC275FC1E",
+      "ean": "4242002854472",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PIJ633FB1E",
+      "ean": "4242002945699",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PVW851FB1E",
+      "ean": "4242002870861",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PIE631FB1E",
+      "ean": "4242002870281",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PVS851FC1E",
+      "ean": "4242002942131",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PVS631FC1E",
+      "ean": "4242002942056",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PXY831DE3E",
+      "ean": "4242002942230",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "PKM645B17E",
+      "ean": "4242002723976",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "PKK631B17E",
+      "ean": "4242002726458",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "PKF645B17E",
+      "ean": "4242002717029",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "PKE611FN1E",
+      "ean": "4242002940267",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "PKF375FP1E",
+      "ean": "4242002938141",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "PKE645CA1E",
+      "ean": "4242002936567",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "GSN58VW30",
+      "ean": "4242002863825",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSV36VWEV",
+      "ean": "4242005142972",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN58AW35",
+      "ean": "4242005102082",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN29CW3V",
+      "ean": "4242005051977",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "B",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSV33VWEV",
+      "ean": "4242005142569",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN54AW35",
+      "ean": "4242005103706",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN33CW3V",
+      "ean": "4242005052691",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSV29VWEV",
+      "ean": "4242005142552",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN51AW31",
+      "ean": "4242002871813",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN36CW3V",
+      "ean": "4242005055258",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN33VW3P",
+      "ean": "4242005063819",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GSN29UW3V",
+      "ean": "4242005051946",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire"
+    },
+    {
+      "id": "GUD15A50",
+      "ean": "4242002716589",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "GID18A20",
+      "ean": "4242002422480",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "KUR15A60",
+      "ean": "4242002690186",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Petit réfrigérateur intégrable"
+    },
+    {
+      "id": "KIL18V20FF",
+      "ean": "4242002514932",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Petit réfrigérateur intégrable"
+    },
+    {
+      "id": "KIR18V20FF",
+      "ean": "4242002514949",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Petit réfrigérateur intégrable"
+    },
+    {
+      "id": "KUL15A60",
+      "ean": "4242002690179",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Petit réfrigérateur intégrable"
+    },
+    {
+      "id": "KSV29VL3P",
+      "ean": "4242005049097",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1 porte"
+    },
+    {
+      "id": "KSV36VL3P",
+      "ean": "4242005062126",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1 porte"
+    },
+    {
+      "id": "KSV36CL3P",
+      "ean": "4242005051670",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 1 porte"
+    },
+    {
+      "id": "KSV33VW3P",
+      "ean": "4242005026555",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1 porte"
+    },
+    {
+      "id": "KSV29VW3P",
+      "ean": "4242005026517",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "FROID Réfrigérateur 1 porte"
+    },
+    {
+      "id": "KIL24X30",
+      "ean": "4242002752365",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIL24V21FF",
+      "ean": "4242002514208",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIR81VS30",
+      "ean": "4242002877495",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIR81AF30",
+      "ean": "4242002711270",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIR41AF30",
+      "ean": "4242002735252",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIR24X30",
+      "ean": "4242002752372",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIR24V21FF",
+      "ean": "4242002514215",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIL82VS30",
+      "ean": "4242002877501",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIL82AF30",
+      "ean": "4242002734606",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIL72AF30",
+      "ean": "4242002730523",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIR24V24FF",
+      "ean": "4242002844886",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KIL42AF30",
+      "ean": "4242002735016",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KDV47VL30",
+      "ean": "4242002648729",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KDV29VW30",
+      "ean": "4242002620060",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KDV33VL32",
+      "ean": "4242002815398",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KDV29VL30",
+      "ean": "4242002632148",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KDN32X45",
+      "ean": "4242002670492",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KDV33VW32",
+      "ean": "4242002816128",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 2ptes"
+    },
+    {
+      "id": "KID26V21IE",
+      "ean": "4242002533940",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 2ptes intégrable"
+    },
+    {
+      "id": "KID28V20FF",
+      "ean": "4242002660561",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur 2ptes intégrable"
+    },
+    {
+      "id": "KAG90AI20",
+      "ean": "4242002816883",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur américain"
+    },
+    {
+      "id": "KAN92VI35",
+      "ean": "4242002811215",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur américain"
+    },
+    {
+      "id": "KAD90VI30",
+      "ean": "4242002817415",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur américain"
+    },
+    {
+      "id": "KIV34X20",
+      "ean": "4242002635699",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KIV86VS30",
+      "ean": "4242002839523",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KIV38V20FF",
+      "ean": "4242002640488",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KIV28V20FF",
+      "ean": "4242002661537",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KIN86VS30",
+      "ean": "4242002838946",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KIV34V21FF",
+      "ean": "4242002521930",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KGN36NW30",
+      "ean": "4242002853536",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV36VB32S",
+      "ean": "4242002799346",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN36NL30",
+      "ean": "4242002841809",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV33VW31S",
+      "ean": "4242002800844",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN36IJ3A",
+      "ean": "4242002961590",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN39LM35",
+      "ean": "4242002880501",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN33NL30",
+      "ean": "4242002878706",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN36VL35",
+      "ean": "4242002878768",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV58VL31S",
+      "ean": "4242002800301",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV33VL31S",
+      "ean": "4242002800837",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN49XL30",
+      "ean": "4242002942728",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV39VW32S",
+      "ean": "4242002899237",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN39VI35",
+      "ean": "4242002852997",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN39VW35",
+      "ean": "4242002872483",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN36VW3A",
+      "ean": "4242002972985",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV39VL31S",
+      "ean": "4242002798967",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV36VW32S",
+      "ean": "4242002799629",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGN36VL3A",
+      "ean": "4242002973012",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "KGV36VL32S",
+      "ean": "4242002799612",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combiné"
+    },
+    {
+      "id": "WVH28463FF",
+      "ean": "4242005095445",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lavante séchante hublot"
+    },
+    {
+      "id": "WVG30462FF",
+      "ean": "4242005063925",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lavante séchante hublot"
+    },
+    {
+      "id": "WKD28541FF",
+      "ean": "4242002877457",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lavante séchante intégrable"
+    },
+    {
+      "id": "WAT28619FF",
+      "ean": "4242005026838",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WUQ28418FF",
+      "ean": "4242005059676",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAT28618FF",
+      "ean": "4242005160549",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WUQ24408FF",
+      "ean": "4242005053520",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAE24071FF",
+      "ean": "4242002809045",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAT32409FF",
+      "ean": "4242005055326",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAB24211FF",
+      "ean": "4242002805535",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAT28419FF",
+      "ean": "4242005038213",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAN24200FF",
+      "ean": "4242002899428",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAE28217FF",
+      "ean": "4242002952536",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAN28066FF",
+      "ean": "4242002911953",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAN28065FF",
+      "ean": "4242002899459",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WLG24260FF",
+      "ean": "4242005086245",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WAWH2660FF",
+      "ean": "4242002899954",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge hublot pose libre"
+    },
+    {
+      "id": "WIW28340FF",
+      "ean": "4242002958651",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave linge intégrable"
+    },
+    {
+      "id": "WIA24201FF",
+      "ean": "4242002876696",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave linge intégrable"
+    },
+    {
+      "id": "SPV25CX00E",
+      "ean": "4242005070701",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SPV66TX04E",
+      "ean": "4242005070893",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SPV46IX01E",
+      "ean": "4242005060078",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SPI25CW03E",
+      "ean": "4242005064373",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SPI25CS03E",
+      "ean": "4242005063963",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SPI25CS00E",
+      "ean": "4242005070718",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SPI25CB03E",
+      "ean": "4242005086924",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm intégrable"
+    },
+    {
+      "id": "SKS51E26EU",
+      "ean": "4242002861210",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SPS25CI04E",
+      "ean": "4242005068326",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SKS51E28EU",
+      "ean": "4242002861227",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SKS51E22EU",
+      "ean": "4242002861203",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SPS25CW00E",
+      "ean": "4242005069729",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SPS46IW01E",
+      "ean": "4242005070749",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SKS62E22EU",
+      "ean": "4242002861234",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 45cm pose libre"
+    },
+    {
+      "id": "SMI88TS46E",
+      "ean": "4242002983097",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46MX03E",
+      "ean": "4242002953526",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SBV46CX00E",
+      "ean": "4242002983028",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46AB01E",
+      "ean": "4242005026296",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI68TS06E",
+      "ean": "4242002959900",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46IX05E",
+      "ean": "4242002965017",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI68IS00E",
+      "ean": "4242002984254",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46IX03E",
+      "ean": "4242002955520",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46IW03E",
+      "ean": "4242005028511",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46AX01E",
+      "ean": "4242002969411",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46IS15E",
+      "ean": "4242005084241",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46AX00E",
+      "ean": "4242002969305",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV41D00EU",
+      "ean": "4242002772677",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46IB15E",
+      "ean": "4242005084234",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMU46MS03E",
+      "ean": "4242002953564",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46JB03E",
+      "ean": "4242005137206",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV88TX46E",
+      "ean": "4242002983103",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46IB03E",
+      "ean": "4242005028528",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46MX04E",
+      "ean": "4242002965024",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI68MS07E",
+      "ean": "4242002984261",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV68TX00E",
+      "ean": "4242002983080",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46AW04E",
+      "ean": "4242002994802",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46GX01E",
+      "ean": "4242002960173",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46JW03E",
+      "ean": "4242005132720",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV68IX00E",
+      "ean": "4242002960043",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46AS04E",
+      "ean": "4242002978574",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMU25AS00E",
+      "ean": "4242002958897",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46IS03E",
+      "ean": "4242002969268",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV50E60EU",
+      "ean": "4242002638874",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV68TX06E",
+      "ean": "4242002957609",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46AB04E",
+      "ean": "4242005028474",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46AW01E",
+      "ean": "4242002996981",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV46AX04E",
+      "ean": "4242002995045",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMV68MX07E",
+      "ean": "4242002983073",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SCE52M65EU",
+      "ean": "4242002841656",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMI46AS01E",
+      "ean": "4242002996974",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "SMS46IW01F",
+      "ean": "4242005086177",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46II19E",
+      "ean": "4242005084265",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS68MW05E",
+      "ean": "4242005055012",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46II17E",
+      "ean": "4242005084258",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS25DW00E",
+      "ean": "4242005153619",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46KW08E",
+      "ean": "4242005178940",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "B",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS25GW02E",
+      "ean": "4242002976716",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46IB17E",
+      "ean": "4242005086153",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS25AW00F",
+      "ean": "4242005036301",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS25CW00E",
+      "ean": "4242002969282",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS25AI00E",
+      "ean": "4242002967684",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46JI17E",
+      "ean": "4242005160419",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46JB17E",
+      "ean": "4242005153596",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS25AI04E",
+      "ean": "4242005030606",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS68TW16E",
+      "ean": "4242002967059",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "SMS46KW07E",
+      "ean": "4242005032952",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm pose libre"
+    },
+    {
+      "id": "WTN85207FF",
+      "ean": "4242005177363",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WTN85201FF",
+      "ean": "4242002938363",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WTN85200FF",
+      "ean": "4242002938349",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WTG86409FF",
+      "ean": "4242005055425",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge hublot condensatio"
+    },
+    {
+      "id": "WTA73200FF",
+      "ean": "4242002937984",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "LAVAGE Sèche linge hublot évacuation"
+    },
+    {
+      "id": "WTW87499FF",
+      "ean": "4242005060122",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WTW85460FF",
+      "ean": "4242005129591",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WTR85V02FF",
+      "ean": "4242005199747",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "WTR85V01FF",
+      "ean": "4242005120765",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "LAVAGE Sèche linge pompe à chaleur"
+    },
+    {
+      "id": "TSM6A013B",
+      "ean": "4242005108787",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "PETIT MENAGER Accessoires petit déjeuner"
+    },
+    {
+      "id": "MFQ2520B",
+      "ean": "4242005080878",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MFQ3030",
+      "ean": "4242002439853",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM87165",
+      "ean": "4242002764306",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MFQ3010",
+      "ean": "4242002439808",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM6250",
+      "ean": "4242002358895",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM6150",
+      "ean": "4242002358888",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM87110",
+      "ean": "4242002764184",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM2413V",
+      "ean": "4242002909301",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM66146",
+      "ean": "4242002860602",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM66110",
+      "ean": "4242002678160",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM24100",
+      "ean": "4242002941554",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MSM14100",
+      "ean": "4242002917269",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MFQ4020",
+      "ean": "4242002556833",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MFQ36470",
+      "ean": "4242002723105",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Batteur/mixeur"
+    },
+    {
+      "id": "MMBH6P6B",
+      "ean": "4242002997575",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Blender"
+    },
+    {
+      "id": "MMB42G0B",
+      "ean": "4242002855356",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Blender"
+    },
+    {
+      "id": "TWK6A014",
+      "ean": "4242002880273",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK7604",
+      "ean": "4242002779027",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK6A011",
+      "ean": "4242002880211",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK7801",
+      "ean": "4242002697772",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK7603",
+      "ean": "4242002824147",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK6A013",
+      "ean": "4242002880242",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK7601",
+      "ean": "4242002732985",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TWK7S05",
+      "ean": "4242002909073",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Bouilloire"
+    },
+    {
+      "id": "TKA8631",
+      "ean": "4242002594972",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Cafetière-filtre"
+    },
+    {
+      "id": "TKA6A643",
+      "ean": "4242002874531",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Cafetière-filtre"
+    },
+    {
+      "id": "TKA6A044",
+      "ean": "4242002874401",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Cafetière-filtre"
+    },
+    {
+      "id": "TKA6A041",
+      "ean": "4242002874340",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Cafetière-filtre"
+    },
+    {
+      "id": "TKA6A043",
+      "ean": "4242002874371",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Cafetière-filtre"
+    },
+    {
+      "id": "TDS4040",
+      "ean": "4242005060528",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS6150",
+      "ean": "4242005093069",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS4020",
+      "ean": "4242005060511",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS2170",
+      "ean": "4242005039562",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS2110",
+      "ean": "4242005039289",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS8030",
+      "ean": "4242005032051",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS8060",
+      "ean": "4242005032297",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS8080",
+      "ean": "4242005032310",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS4070",
+      "ean": "4242005060542",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "TDS8040",
+      "ean": "4242005032273",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrale vapeur"
+    },
+    {
+      "id": "MESM731M",
+      "ean": "4242002974187",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrifugeuse"
+    },
+    {
+      "id": "MESM500W",
+      "ean": "4242002956015",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Centrifugeuse"
+    },
+    {
+      "id": "TI351209RW",
+      "ean": "4242003848852",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "O",
+      "description": "PETIT MENAGER Expresso"
+    },
+    {
+      "id": "TDA703021A",
+      "ean": "4242002765273",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Fer vapeur"
+    },
+    {
+      "id": "TDA2610",
+      "ean": "4242002469492",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Fer vapeur"
+    },
+    {
+      "id": "TDA1023010",
+      "ean": "4242002777085",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Fer vapeur"
+    },
+    {
+      "id": "TDA1024110",
+      "ean": "4242002777559",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Fer vapeur"
+    },
+    {
+      "id": "TAT6A111",
+      "ean": "4242002879475",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT6A004",
+      "ean": "4242002880150",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT6A001",
+      "ean": "4242002880099",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT6A003",
+      "ean": "4242002880129",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT8611",
+      "ean": "4242002594934",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT6A803",
+      "ean": "4242002880181",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT7S25",
+      "ean": "4242002909097",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT6A114",
+      "ean": "4242002879932",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "TAT6A113",
+      "ean": "4242002879505",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Grille pain/toaster"
+    },
+    {
+      "id": "MFW68640",
+      "ean": "4242002770864",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Hachoir"
+    },
+    {
+      "id": "MMR08R2",
+      "ean": "4242002742274",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Hachoir"
+    },
+    {
+      "id": "TAS6004",
+      "ean": "4242002968995",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "TAS6003",
+      "ean": "4242002968971",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "TAS6002",
+      "ean": "4242002968957",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "TAS3205",
+      "ean": "4242002773186",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "TAS3204",
+      "ean": "4242002855080",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "TAS3203",
+      "ean": "4242002773155",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "TAS3202",
+      "ean": "4242002772967",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Machine à dosette/capsule"
+    },
+    {
+      "id": "MUC88B68FR",
+      "ean": "4242002947105",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Mijoteur"
+    },
+    {
+      "id": "MUC28B64FR",
+      "ean": "4242002935621",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Mijoteur"
+    },
+    {
+      "id": "MCP72GPB",
+      "ean": "4242002996776",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Presse agrume/jus"
+    },
+    {
+      "id": "MCP3000",
+      "ean": "4242002329383",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Presse agrume/jus"
+    },
+    {
+      "id": "MUM50123",
+      "ean": "4242002904047",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MCM3100W",
+      "ean": "4242002853314",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MC812W501",
+      "ean": "4242005109678",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MCM4100",
+      "ean": "4242002542751",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "L",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MUM9Y35S12",
+      "ean": "4242002957937",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MUM58243",
+      "ean": "4242002903965",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MCM4200",
+      "ean": "4242002542768",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MC812M844",
+      "ean": "4242005109340",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PETIT MENAGER Robot multifonctions"
+    },
+    {
+      "id": "MUM58L20",
+      "ean": "4242002879642",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "R",
+      "description": "PETIT MENAGER Robot pâtissier"
+    },
+    {
+      "id": "GC+5BOSCUIEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSPINEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSCUI",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSPGAZEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSCONGEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSMOEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSCONG",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSMO",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSCAV",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSLVEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+1BOSCONG",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSLV",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSREFUS",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSLS",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSREFEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSLLSLEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSREF",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSLLSL",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSPVITEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSHOTEN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "GC+5BOSPVEREN",
+      "ean": "",
+      "fournisseur": "BSH",
+      "marque": "BOC",
+      "gamme": "",
+      "description": "PRESTATIONS EXTENSION DE GARANTIE"
+    },
+    {
+      "id": "N17HH10N0",
+      "ean": "4242004184577",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Autres"
+    },
+    {
+      "id": "C17MS32N0",
+      "ean": "4242004182191",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "C1APG64N0",
+      "ean": "4242004222606",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "C17MR02N0",
+      "ean": "4242004182160",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four combi micro ondes"
+    },
+    {
+      "id": "L1ACH4MN0",
+      "ean": "4242004222453",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable catalyse"
+    },
+    {
+      "id": "B3ACI5HN0",
+      "ean": "4242004225188",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "C87FS32H0",
+      "ean": "4242004235538",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B47CR32N0",
+      "ean": "4242004177302",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B87CS34H0",
+      "ean": "4242004235453",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B45CR22N0",
+      "ean": "4242004177272",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B3ACI5AN0",
+      "ean": "4242004225171",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B3ACE4AN0",
+      "ean": "4242004220510",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B1ACD5AN0",
+      "ean": "4242004225003",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B17CR32N1",
+      "ean": "4242004201984",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B87CS34N0",
+      "ean": "4242004213932",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B47FS32N0",
+      "ean": "4242004181606",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B47CS34N0",
+      "ean": "4242004181569",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable manuel"
+    },
+    {
+      "id": "B25CR22N1",
+      "ean": "4242004199441",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B57CS24N0",
+      "ean": "4242004181927",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B55CR22N0",
+      "ean": "4242004181811",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "O",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B57CR25N0",
+      "ean": "4242004181903",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B57CR22N0",
+      "ean": "4242004177746",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B56VT64N0",
+      "ean": "4242004181880",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B55VS24N0",
+      "ean": "4242004181873",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B55CS24N0",
+      "ean": "4242004177715",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B27CS24N1",
+      "ean": "4242004202424",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B58CT62H0",
+      "ean": "4242004235415",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B57CS24H0",
+      "ean": "4242004235385",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B2ACG7AN0",
+      "ean": "4242004225072",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B58CT64N0",
+      "ean": "4242004182016",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B58VT68H0",
+      "ean": "4242004235446",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B27CR22N1",
+      "ean": "4242004202417",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "B57VS24H0",
+      "ean": "4242004235408",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four encastrable pyrolyse"
+    },
+    {
+      "id": "C87FS32N0",
+      "ean": "4242004213956",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "B48FT78H0",
+      "ean": "4242004235354",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "C18FT48N1",
+      "ean": "4242004214137",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "B47FS32H0",
+      "ean": "4242004235316",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "C17DR00N0",
+      "ean": "4242004235576",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "B88FT78N0",
+      "ean": "4242004214045",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "B46FT64N0",
+      "ean": "4242004181491",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Four vapeur"
+    },
+    {
+      "id": "D96IKU1S0",
+      "ean": "4242004210313",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D55MH56N0",
+      "ean": "4242004186847",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D55ML66N0",
+      "ean": "4242004186861",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I99C68N1",
+      "ean": "4242004187912",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95IPP1N0",
+      "ean": "4242004210276",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D49ED52X0",
+      "ean": "4242004197577",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D46PU65X3",
+      "ean": "4242004213765",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95QFM4N0",
+      "ean": "4242004223061",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I92CM67N0",
+      "ean": "4242004187462",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95IKP1S0",
+      "ean": "4242004210238",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D46ED52X0",
+      "ean": "4242004197300",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D46BR12X0",
+      "ean": "4242004195955",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I91VT44N0",
+      "ean": "4242004210511",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95BHM4N0",
+      "ean": "4242004223054",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95IHM1S0",
+      "ean": "4242004210214",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D46ED22X0",
+      "ean": "4242004195993",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D35KHM2S0",
+      "ean": "4242004209973",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I90CN48W0",
+      "ean": "4242004201601",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D85IBE1S0",
+      "ean": "4242004230601",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95FRW1S0",
+      "ean": "4242004210191",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D46BR22X0",
+      "ean": "4242004195979",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I90CL46N0",
+      "ean": "4242004201717",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D64BBC0N0",
+      "ean": "4242004223016",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95FRM1S0",
+      "ean": "4242004210160",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I79SL64N0",
+      "ean": "4242004174615",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D58ML66N1",
+      "ean": "4242004238300",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D79SL62N0",
+      "ean": "4242004174516",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I72MT64N1",
+      "ean": "4242004183891",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D5855X1",
+      "ean": "4242004237143",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D79MT64N1",
+      "ean": "4242004183822",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D95BEM4N0",
+      "ean": "4242004222446",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I38KHV2S0",
+      "ean": "4242004210399",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D57ML66N1",
+      "ean": "4242004238294",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D58ML66N0",
+      "ean": "4242004186960",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D94BBC0N0",
+      "ean": "4242004224167",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D96IMW1N0",
+      "ean": "4242004210351",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D5655X1",
+      "ean": "4242004237129",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D5855X0",
+      "ean": "4242004073147",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D96IMS1N0",
+      "ean": "4242004210337",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D55ML66N1",
+      "ean": "4242004238287",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "D57ML66N0",
+      "ean": "4242004186946",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "I99CM67N0",
+      "ean": "4242004187448",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Hotte"
+    },
+    {
+      "id": "C17KS61H0",
+      "ean": "4242004234470",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Machine à café encastrable"
+    },
+    {
+      "id": "HLAWD53N0",
+      "ean": "4242004222781",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "HLAWD23N0",
+      "ean": "4242004222767",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "C17WR00N0",
+      "ean": "4242004184546",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "C17UR02N0",
+      "ean": "4242004207016",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro ondes intégrable"
+    },
+    {
+      "id": "C1AMG83N0",
+      "ean": "4242004222729",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes combi intégrable"
+    },
+    {
+      "id": "C17MS32H0",
+      "ean": "4242004235118",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes combi intégrable"
+    },
+    {
+      "id": "C15MR02N0",
+      "ean": "4242004182085",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Micro-ondes combi intégrable"
+    },
+    {
+      "id": "HLAGD53N0",
+      "ean": "4242004222804",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Micro-ondes gril intégrable"
+    },
+    {
+      "id": "T29DA69N0",
+      "ean": "4242004203575",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26CS49S0",
+      "ean": "4242004203322",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T27DS59N0",
+      "ean": "4242004203506",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BR46S0",
+      "ean": "4242004187813",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T27DA69N0",
+      "ean": "4242004183181",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BR46N0",
+      "ean": "4242004187271",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26DS49W0",
+      "ean": "4242004203421",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "N23TA29N0",
+      "ean": "4242004203292",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T58TS6BN0",
+      "ean": "4242004214779",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T59PS51X0",
+      "ean": "4242004195856",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T56FT30X0",
+      "ean": "4242004190844",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T56UD30X0",
+      "ean": "4242004191520",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T56TS61N0",
+      "ean": "4242004189336",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T68TS61N0",
+      "ean": "4242004190882",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T36FD43X0",
+      "ean": "4242004195504",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T59FT50X0",
+      "ean": "4242004189367",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "GI7813E30",
+      "ean": "4242004199557",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Congélateur armoire intégrable"
+    },
+    {
+      "id": "K1544X8",
+      "ean": "4242004160458",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI2822S30",
+      "ean": "4242004197966",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI2423F30",
+      "ean": "4242004165644",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI1413F30",
+      "ean": "4242004165965",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI5862S30",
+      "ean": "4242004189220",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "K1514X7FF",
+      "ean": "4242004124566",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "S413I60B3E",
+      "ean": "4242004215981",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S513A60X0E",
+      "ean": "4242004219132",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S716T80X1E",
+      "ean": "4242004213581",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S516I80X1E",
+      "ean": "4242004219637",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S715T60D2E",
+      "ean": "4242004237600",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S413I60S3E",
+      "ean": "4242004215011",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S415M80S1E",
+      "ean": "4242004213536",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S513M60X3E",
+      "ean": "4242004213246",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S523K60X0E",
+      "ean": "4242004216100",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S713P60X0E",
+      "ean": "4242004219170",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S717P80D0E",
+      "ean": "4242004216087",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S723P60X0E",
+      "ean": "4242004219187",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S515M80X0E",
+      "ean": "4242004221418",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S513K60X0E",
+      "ean": "4242004216117",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "S513K60X1E",
+      "ean": "4242004220015",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "LAVAGE Lave vaisselle 60cm intégrable"
+    },
+    {
+      "id": "V6540X1EU",
+      "ean": "4242004196525",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "LAVAGE Lavante séchante intégrable"
+    },
+    {
+      "id": "K1524X7FF",
+      "ean": "4242004124559",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "K4400X7FF",
+      "ean": "4242004118091",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI5862U30",
+      "ean": "4242004192220",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI7862S30",
+      "ean": "4242004189015",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur combi intégrable"
+    },
+    {
+      "id": "KI1313F30",
+      "ean": "4242004166016",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI2323F30",
+      "ean": "4242004166047",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "K1554X0FF",
+      "ean": "4242004129479",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI1812S30",
+      "ean": "4242004197027",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI1813F30",
+      "ean": "4242004160106",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "K1544X0FF",
+      "ean": "4242004129622",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI2823F30",
+      "ean": "4242004165811",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "K1554X8",
+      "ean": "4242004160441",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "K1664X6",
+      "ean": "4242004099376",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "KI1312F30",
+      "ean": "4242004184232",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "FROID Réfrigérateur 1pte intégrable"
+    },
+    {
+      "id": "T11B22X2",
+      "ean": "4242004162421",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "T16FK40X0",
+      "ean": "4242004206750",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque vitrocéramique"
+    },
+    {
+      "id": "T36FB40X0",
+      "ean": "4242004195450",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T66PS61X0",
+      "ean": "4242004189381",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T66TS61N0",
+      "ean": "4242004191704",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T36FB20X0",
+      "ean": "4242004195443",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T46FD53X0",
+      "ean": "4242004191285",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T56FT60X0",
+      "ean": "4242004195702",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T46UT20X0",
+      "ean": "4242004191629",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T36FB10X0",
+      "ean": "4242004195436",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T48FD13X0",
+      "ean": "4242004191407",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T46FD23X0",
+      "ean": "4242004188902",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T50PS31X0",
+      "ean": "4242004192961",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T46UB20X0",
+      "ean": "4242004211624",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T58TS11N0",
+      "ean": "4242004192077",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T56UD50X0",
+      "ean": "4242004195733",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T58UD10X0",
+      "ean": "4242004189350",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T56TS51N0",
+      "ean": "4242004191742",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T57TT60N0",
+      "ean": "4242004191926",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T68PS61X0",
+      "ean": "4242004195122",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque induction"
+    },
+    {
+      "id": "T26CS12S0",
+      "ean": "4242004203315",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "O",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26DS19N0",
+      "ean": "4242004203353",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T29TA79N0",
+      "ean": "4242004203636",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26DS49N0",
+      "ean": "4242004203384",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BB46N0",
+      "ean": "4242004212089",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26DS49S0",
+      "ean": "4242004203414",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "R",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BB46S0",
+      "ean": "4242004212096",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T27CS59S0",
+      "ean": "4242004203476",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "L",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BB46W0",
+      "ean": "4242004212102",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BB56N0",
+      "ean": "4242004212119",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    },
+    {
+      "id": "T26BR56N0",
+      "ean": "4242004187837",
+      "fournisseur": "BSH",
+      "marque": "NEF",
+      "gamme": "",
+      "description": "CUISSON Plaque gaz"
+    }
+  ]
+}

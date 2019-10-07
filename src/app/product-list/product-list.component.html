@@ -1,0 +1,17 @@
+<h1>Liste de produits référencés</h1>
+
+<!-- (submit)="handleSubmit()" -->
+<form  [formGroup]="searchGroup">
+        <h5>Chercher une référence:</h5>
+        <mat-form-field>
+          <input matInput placeholder="Référence produit" formControlName="name">
+        </mat-form-field>
+</form>
+
+<button (click)='onPrevClick()'>Précédent</button> <button (click)='onNextClick()'>Suivant</button>
+
+<li *ngFor="let product of product$ |async">
+    <span>Product: {{product.id}} {{product.marque}} {{product.gamme}} {{product.ean}} ({{product.description}})</span>
+</li>
+
+<span>------- FIN DE LA LISTE ---</span>

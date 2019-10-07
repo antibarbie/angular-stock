@@ -1,0 +1,45 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+      
+      
+      <div class="content" role="main">
+        <!-- VENTE -->
+        <div class="card highlight-card card-small" [routerLink]="['/sale']">
+            <img class="headimage" src="assets/shopping.svg" />
+                <span>Ventes</span>
+      </div>
+      
+        <!-- RECEPTION -->
+          <div class="card highlight-card card-small"  [routerLink]="['/command']">
+            <img class="headimage" src="assets/package.svg" />
+          <span>Réception de produits</span>
+        </div>
+      
+        <!-- INVENTAIRE -->
+          <div class="card highlight-card card-small"  [routerLink]="['/inventory']">
+            <img class="headimage" src="assets/stock.svg" />
+              <span>Inventaire du stock</span>
+          </div>
+        <!-- Liste des produits -->
+          <div class="card highlight-card card-small"  [routerLink]="['/product-list']" >
+            <img class="headimage" src="assets/papers.svg" />
+            <span>Produits et références</span>
+          </div>
+      
+        <!-- Terminal -->
+        <div class="terminal" >
+            <pre>
+Mercredi 19:00  |   Envoi <font color='lightgreen'>OK</font>
+Mardi    19:00  |   Envoi <font color='lightgreen'>OK</font>
+Lundi    19:00  |   Envoi Echec : <font color='red'>Cannot contact server.</font></pre>
+        </div>
+      </div>
+      
+      

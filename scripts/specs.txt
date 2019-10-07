@@ -1,0 +1,91 @@
+CRONTAB
+
+# STOCK TOUS LES JOURS 2x/jour
+00 07,12 * * * cd /home/anti/Documents/SAMSON/stocky/stocky-app/ && /usr/local/bin/node scripts/generate_export.js --daystock
+# VENTE 1/jour
+00 20 * * * cd /home/anti/Documents/SAMSON/stocky/stocky-app/ && /usr/local/bin/node scripts/generate_export.js --daysale
+# STOCK ET VENTE SAMEDI 20H
+00 20 * * 6 cd /home/anti/Documents/SAMSON/stocky/stocky-app/ && /usr/local/bin/node scripts/generate_export.js --weeksale
+00 20 * * 6 cd /home/anti/Documents/SAMSON/stocky/stocky-app/ && /usr/local/bin/node scripts/generate_export.js --weekstock
+
+
+node scripts/import_products.js --importgroupeimage=scripts/import_ficarticle_SAM001.csv --forceupdate
+
+
+
+------------------------------------------ avant le lundi matin 7h
+-- Stocks hebdomadaire
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SAMEDI 20H -- SOIR OU DIMANCHE SOIR
+node scripts/generate_export.js --weekstock
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+STSaass_codemagasin.CSV
+
+aass code semaine
+aaaass code semaine
+codemagasin dans DS5
+
+Magasin;No_Semaine;Date_Ref;Code_Article;Code_Barres;Fourn_Std;Marque;Stock
+1234567;201901;07/01/2019;code_article_ds5;code_ean13 ;code_ds5 ;codeds;42
+
+******************* DERNIER INVENTAIRE - VENTES DEPUIS + RECEPTION DEPUIS
+
+-- Vente hebdomadaire
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SAMEDI 20H  SOIR OU DIMANCHE SOIR
+node scripts/generate_export.js --weeksale
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+VTSaass_codemagasin.CSV
+
+
+Magasin;No_Semaine;Date_Ref;Code_Article;Code_Barres;Fourn_Std;Marque;Qte_Vendue
+1234567;1901;07/01/2019;code_article_ds5;code_ean13 ;code_ds5 ;codeds;42
+
+******************* VENTES (semaine)
+
+----------------------------------------------------------------
+
+--Stock de tous les produits   -- avant 7h30 et avant 13h
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TLJ 06:00 et 12:00
+node scripts/generate_export.js --daystock
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+STCyyyyMMjjhhmm_codemagasin.CSV
+
+codemagasin dans DS5
+
+Magasin;Code_Article;Code_Barres;Stock;Cde_Frn
+1234567;code_article_ds5;code_ean13;42;1
+
+
+******************* DERNIER INVENTAIRE - VENTES DEPUIS + RECEPTION DEPUIS
+
+----------------------------------------------------------------
+
+Ventes --------------------- (tous les soirs) en tout cas avant le matin 6h30
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TLJ 20:00
+node scripts/generate_export.js --daysale
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+CAyyyyMMjjhhmm_codemagasin.CSV
+
+
+Magasin;Date_Vente;Code_Article;Code_Barres;Code_Fourn;Code_Marque;Gamme;Qte;CA_HT;CA_TTC
+1234567;07/01/2019;code_article_ds5;code_ean13;code_ds5;codeds;code ds5;1;100;120
+
+
+******************* VENTES (journée)
+
+
+-->
+
+- Référencement produit (codes etc...) (import DS5 ?)            PRODUITS [REF -> codes ds5]
+- Etat des stock initial (inventaire annuel par exemple)
+  Saisie inventaire : [ DATE, [ REF, QTE] ]                      INVENTAIRE
+- Saisie de ventes [ (DATE) REF, QTE, PRIX TTC ou HT ]           VENTES
+- Saisie des arrivées [ (DATE) REF, QTE ]                        RECEPTION
+
+- (second temps saisie commandes) [REF QTE]

@@ -1,0 +1,66 @@
+<style>
+ .mat-option {
+    /* line-height: 48px;*/
+    line-height: normal;
+
+    min-width: 200px;
+ }
+ .cdk-overlay-pane {
+    width: 200px;
+ }
+
+</style>
+<h1>            <img src="assets/package.svg" width="50" height="50" />
+    Commandes et réception marchandises</h1>
+
+<mat-card class="card-container card-blob">
+
+<h2>Noter une marchandise en commande</h2>
+<form (submit)="onSubmitCommand()" [formGroup]="commandGroup">
+        <h5>Saisir une marchandise en commande:</h5>
+        <mat-form-field>
+          <input matInput 
+          placeholder="Référence produit" 
+          formControlName="ref" 
+          oninput="this.value = this.value.toUpperCase()"
+          [matAutocomplete]="autoDestination"
+          required
+          >
+          <mat-error *ngIf="commandGroup.controls['ref'].hasError('minLength')">Saisir un code produit</mat-error>
+          <mat-error *ngIf="commandGroup.controls['ref'].hasError('unknown')">Saisir un code produit</mat-error>
+
+          <mat-autocomplete #autoDestination="matAutocomplete"> <!-- [displayWith]="displayFn"> -->
+            <mat-option *ngFor="let product of filteredProducts$ | async" [value]="product.id">
+              <div><span>{{ product.id }}</span> <small> ({{product.marque}})</small></div>
+              <small>{{product.description}}</small>
+            </mat-option>
+          </mat-autocomplete>
+
+        </mat-form-field>
+
+
+        <mat-form-field>
+          <input matInput placeholder="Quantité" formControlName="qty" [value]="1" required>
+          <mat-error *ngIf="commandGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error>
+        </mat-form-field>
+        <button mat-raised-button  type="submit" [disabled]="commandGroup.invalid">Create</button>
+        <!--  -->
+</form>
+</mat-card>
+
+<mat-divider></mat-divider>
+
+<h2>Commandes en cours</h2>
+<li *ngFor="let command of currentCommand$ |async">
+        <span>Command {{command.date}} {{command.ref}} {{command.qty}}</span>
+        <!-- <span>En cours {{command.id}} {{command.date}} {{command.qty}} </span><span (click)="onReceived(command.id)">(RECU)</span> -->
+</li>
+
+<mat-divider></mat-divider>
+
+<h2>Commandes reçues <button (click)='onPrevClick()'>Précédent</button> <button (click)='onNextClick()'>Suivant</button> </h2>
+
+<li *ngFor="let command of previousCommand$ |async">
+        <span>Command {{command.date}} {{command.ref}} {{command.qty}}</span>
+</li>
+    
