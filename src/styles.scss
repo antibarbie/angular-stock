@@ -217,6 +217,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     z-index: -10;
   }
 
+  .cardtable {
+    display: table;
+  }
+  .cardrow {
+    display: table-row;
+  }
+
+  .cardcell {
+    display: table-cell;
+  }
+
+
   a,
   a:visited,
   a:hover {

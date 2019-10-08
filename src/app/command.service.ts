@@ -23,6 +23,11 @@ export class CommandService {
     { params: { expected: 'true', _sort:'date', _order:'desc',  _limit: ''+limit }});
   }
 
+  // Gets one specific command by key
+  getCommandById(id: number) : Observable<Command> {
+    return this.http.get<Command>(`${environment.apiUrl}/command`, { params: { id: ''+id }});
+  }
+
   /// Adds a new a command
   addCommand(cmd: Command ) {
     console.log(`Posting to ${environment.apiUrl}/command ...`);
@@ -47,9 +52,9 @@ export class CommandService {
   }
 
   /// Remove a command
-  deleteCommand(cmd: Command ) {
+  removeCommand(id: number ) {
     this.http.delete<Command>(
-      `${environment.apiUrl}/command/${cmd.id}`).subscribe(()=>{ 
+      `${environment.apiUrl}/command/${id}`).subscribe(()=>{ 
         console.log("Deleted ok.")
       });
   }

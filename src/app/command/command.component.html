@@ -9,11 +9,31 @@
     width: 200px;
  }
 
+ .commandcard {
+    background-color: #6ecbf7;
+    border-radius: 10px;
+ }
+ .smallcommandcard {
+    background-color: #6ecbf7;
+    width: 900px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+ }
+.smallbutton {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+}
+table > tr > td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 </style>
 <h1>            <img src="assets/package.svg" width="50" height="50" />
     Commandes et réception marchandises</h1>
 
-<mat-card class="card-container card-blob">
+<mat-card class="card-container card-blob commandcard">
 
 <h2>Noter une marchandise en commande</h2>
 <form (submit)="onSubmitCommand()" [formGroup]="commandGroup">
@@ -43,7 +63,7 @@
           <input matInput placeholder="Quantité" formControlName="qty" [value]="1" required>
           <mat-error *ngIf="commandGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error>
         </mat-form-field>
-        <button mat-raised-button  type="submit" [disabled]="commandGroup.invalid">Create</button>
+        <button mat-raised-button  type="submit" [disabled]="commandGroup.invalid">Créer ✓✔</button>
         <!--  -->
 </form>
 </mat-card>
@@ -51,16 +71,24 @@
 <mat-divider></mat-divider>
 
 <h2>Commandes en cours</h2>
-<li *ngFor="let command of currentCommand$ |async">
-        <span>Command {{command.date}} {{command.ref}} {{command.qty}}</span>
-        <!-- <span>En cours {{command.id}} {{command.date}} {{command.qty}} </span><span (click)="onReceived(command.id)">(RECU)</span> -->
-</li>
+<table>
+<tr *ngFor="let command of (currentCommand$ | async)"  class="smallcommandcard">
+        <!--<mat-card class="card-container card-blob smallcommandcard" > -->
+          <td><button class="smallbutton"  mat-raised-button (click)="onCancelCommand(command)">❎</button></td>
+          <td><span>Commande {{command.date}}</span></td>
+          <td><span>{{command.ref}}</span> </td>
+          <td><span>Qté. {{command.qty}}</span></td>
+          <td><button  class="smallbutton" mat-raised-button (click)="onReceiveCommand(command)" >Reçu Ok 📦 ✔</button></td>
+        <!-- </mat-card> -->
+</tr>
+</table>
 
 <mat-divider></mat-divider>
 
 <h2>Commandes reçues <button (click)='onPrevClick()'>Précédent</button> <button (click)='onNextClick()'>Suivant</button> </h2>
-
-<li *ngFor="let command of previousCommand$ |async">
-        <span>Command {{command.date}} {{command.ref}} {{command.qty}}</span>
-</li>
+<table>
+    <tr *ngFor="let command of previousCommand$ |async"  class="smallcommandcard">
+        <td>Commande du {{command.date}}</td> <td>{{command.ref}}</td> <td>Qté. {{command.qty}}</td>
+    </tr>
+</table>
     

@@ -1,1 +1,96 @@
-<p>sale works!</p>
+<style>
+        .mat-option {
+           /* line-height: 48px;*/
+           line-height: normal;
+       
+           min-width: 200px;
+        }
+        .cdk-overlay-pane {
+           width: 200px;
+        }
+       
+        .commandcard {
+           background-color: #6ecbf7;
+           border-radius: 10px;
+        }
+        .smallcommandcard {
+           background-color: #6ecbf7;
+           width: 900px;
+           border-radius: 10px;
+           padding-top: 3px;
+           padding-bottom: 3px;
+        }
+       .smallbutton {
+         padding-top: 3px;
+         padding-bottom: 3px;
+         border-radius: 5px;
+       }
+       table > tr > td {
+         padding-left: 5px;
+         padding-right: 5px;
+       }
+       </style>
+       <h1>            <img src="assets/shopping.svg" width="50" height="50" />
+           Ventes</h1>
+       
+       <mat-card class="card-container card-blob commandcard">
+       
+       <h2>Nouvelle vente :</h2>
+       <form (submit)="onSubmitSale()" [formGroup]="saleGroup">
+               <h5>Saisir une nouvelle vente:</h5>
+               <mat-form-field>
+                 <input matInput 
+                 placeholder="Référence produit"
+                 formControlName="ref" 
+                 oninput="this.value = this.value.toUpperCase()"
+                 [matAutocomplete]="autoDestination"
+                 required>
+
+                 <mat-error *ngIf="saleGroup.controls['ref'].hasError('minLength')">Saisir un code produit</mat-error>
+                 <mat-error *ngIf="saleGroup.controls['ref'].hasError('unknown')">Saisir un code produit</mat-error>
+       
+                 <mat-autocomplete #autoDestination="matAutocomplete">
+                   <mat-option *ngFor="let product of filteredProducts$ | async" [value]="product.id">
+                     <div><span>{{ product.id }}</span> <small> ({{product.marque}})</small></div>
+                     <small>{{product.description}}</small>
+                   </mat-option>
+                 </mat-autocomplete>
+               </mat-form-field>       
+       
+               <mat-form-field>
+                 <input matInput placeholder="Quantité" formControlName="qty" [value]="1" required>
+                 <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error>
+               </mat-form-field>
+
+               <mat-form-field>
+                <input matInput placeholder="Prix HT" formControlName="qty" [value]="1" required>
+               <!-- <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error> -->
+                </mat-form-field>
+
+                <mat-form-field>
+                <input matInput placeholder="Prix TTC" formControlName="qty" [value]="1" required>
+               <!-- <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error> -->
+                </mat-form-field>
+                         
+               <button mat-raised-button  type="submit" [disabled]="saleGroup.invalid">Valider la vente ✔</button>
+               <!--  -->
+       </form>
+       </mat-card>
+       
+       <mat-divider></mat-divider>
+       
+       <h2>Ventes effectuées <button (click)='onPrevClick()'>Précédent</button> <button (click)='onNextClick()'>Suivant</button> </h2>
+       <table>
+       <tr *ngFor="let sale of (sales$ | async)"  class="smallcommandcard">
+               <!--<mat-card class="card-container card-blob smallcommandcard" > -->
+                 <td><button class="smallbutton"  mat-raised-button (click)="onCancelSale(sale)">❎</button></td>
+                 <td><span>Vente du {{sale.date}}</span></td>
+                 <td><span>{{sale.ref}}</span> </td>
+                 <td><span>Qté. {{sale.qty}}</span></td>
+                 <td><span>P.HT {{sale.pht}}</span></td>
+                 <td><span>P.TTC {{sale.pttc}}</span></td>
+               <!-- </mat-card> -->
+       </tr>
+       </table>
+       
+           

@@ -35,6 +35,7 @@ export class CommandComponent implements OnInit {
     });
    }
 
+   // Default values for "new" form
    resetForm() {
     this.commandGroup.get('ref').setValue('');
     this.commandGroup.get('qty').setValue('1');
@@ -42,41 +43,32 @@ export class CommandComponent implements OnInit {
     this.commandGroup.markAsUntouched();
    }
 
+   // updates search results
    searchAgain() {
     this.currentCommand$ = this.commandService.getCurrentCommands(this.commandlimit);
     this.previousCommand$ = this.commandService.getOldCommands(this.commandlimit, this.offset);
 
     this.resetForm();
-    //this.commandGroup.get('ref').setValue('');
-    //this.commandGroup.get('ref').dirty = false;
-    //this.commandGroup.get('qty').setValue('1');
-
-    //this.commandGroup.reset();
-    //this.commandGroup.get('ref').setValue('');
-    //this.commandGroup.get('ref').reset();
    }
 
   ngOnInit() {
     this.searchAgain();
-    
+
+    // Auto-complete !
     this.filteredProducts$ = this.commandGroup.get('ref')
       .valueChanges
       .pipe(
         debounceTime(300),
         switchMap(value => this.productService.getProducts(value, 10, 0) /* get 10 values max */)
       );
-    // Changes searchvalue when input changes..
-    //this.commandGroup.get('ref').valueChanges.subscribe(val => {
-    //  this.searchValue = val;
-    //});
   }
 
-  // Vérifier qu'on a bien saisi un produit existant
+  // Checks that the product really exists !
   checkProductExists(control : FormControl) {
     return undefined;
   }
 
-  /// Clic nouvelle commande
+  /// Click new command
   onSubmitCommand() {
     var cmdAuto = this.commandGroup.value as Command;
     var cmd = new Command(this.commandGroup.get('ref').value, 
@@ -92,15 +84,40 @@ export class CommandComponent implements OnInit {
     this.searchAgain();
   }
 
-  // Suivant dans la liste
+  // Next in list
   onNextClick() {
     this.offset += this.commandlimit;
     this.searchAgain();
   }
 
-  // Précédent dans la liste
+  // Previous in list
   onPrevClick() {
     this.offset = Math.max(0, this.offset - this.commandlimit);
     this.searchAgain();
+  }
+
+  // Cancel a command we never received !
+  onCancelCommand(cmd : Command)//id : number) 
+  {
+    console.log("Deleting command :"+cmd.id);
+    this.commandService.removeCommand(cmd.id);
+
+    this.searchAgain();
+  }
+
+  // Mark a command as received
+  onReceiveCommand(cmd : Command)//id : number) 
+  {
+    console.log("Received command :");
+    console.log(cmd);
+    cmd.expected = false; // modify !
+    this.commandService.modifyCommand(cmd);
+
+    this.searchAgain();
+
+    //this.commandService.getCommandById(id).subscribe( cmd => {
+    //   cmd.expected = false; // modify !
+    //   this.commandService.modifyCommand(cmd);
+    //});
   }
 }
