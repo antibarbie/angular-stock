@@ -62,13 +62,13 @@
                  <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error>
                </mat-form-field>
 
-               <mat-form-field>
+               <!--<mat-form-field>
                 <input matInput placeholder="Prix HT" formControlName="qty" [value]="1" required>
-               <!-- <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error> -->
-                </mat-form-field>
+                <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error> 
+                </mat-form-field> -->
 
                 <mat-form-field>
-                <input matInput placeholder="Prix TTC" formControlName="qty" [value]="1" required>
+                <input matInput placeholder="Prix TTC" formControlName="pttc" [value]="" required>
                <!-- <mat-error *ngIf="saleGroup.controls['qty'].hasError('min')">Au moins un produit</mat-error> -->
                 </mat-form-field>
                          

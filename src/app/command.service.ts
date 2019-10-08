@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Command } from './model/command';
 import { environment } from 'src/environments/environment';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -29,34 +30,34 @@ export class CommandService {
   }
 
   /// Adds a new a command
-  addCommand(cmd: Command ) {
+  addCommand(cmd: Command ) : Observable<void> {
     console.log(`Posting to ${environment.apiUrl}/command ...`);
     console.log(cmd);
 
-    this.http.post<Command>(
+    return this.http.post<Command>(
       `${environment.apiUrl}/command`,  
       cmd
-    ).subscribe(()=>{ 
+    ).pipe(map(()=>{ 
       console.log("Posted ok.")
-    });
+    }));
   }
 
   /// Changes a command
-  modifyCommand(cmd: Command ) {
-    this.http.put<Command>(
+  modifyCommand(cmd: Command )  : Observable<void>  {
+    return this.http.put<Command>(
       `${environment.apiUrl}/command/${cmd.id}`,
       cmd
-    ).subscribe(()=>{ 
+    ).pipe(map(()=>{ 
       console.log("Modified ok.")
-    });
+    }));
   }
 
   /// Remove a command
-  removeCommand(id: number ) {
-    this.http.delete<Command>(
-      `${environment.apiUrl}/command/${id}`).subscribe(()=>{ 
+  removeCommand(id: number )  : Observable<void> {
+    return this.http.delete<Command>(
+      `${environment.apiUrl}/command/${id}`).pipe(map(()=>{ 
         console.log("Deleted ok.")
-      });
+      }));
   }
 
 }

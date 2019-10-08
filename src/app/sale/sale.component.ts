@@ -31,7 +31,7 @@ export class SaleComponent implements OnInit {
     this.saleGroup = new FormGroup({
       ref: new FormControl('', [ Validators.required, Validators.minLength(2)] ),// this.checkProductExists.bind(this)),
       qty: new FormControl('1', [ Validators.required, Validators.min(1)]),
-      pht: new FormControl('0.00', [ Validators.required ]),
+      //pht: new FormControl('0.00', [ Validators.required ]),
       pttc: new FormControl('0.00', [ Validators.required ])
     });
    }
@@ -40,8 +40,8 @@ export class SaleComponent implements OnInit {
    resetForm() {
     this.saleGroup.get('ref').setValue('');
     this.saleGroup.get('qty').setValue('1');
-    this.saleGroup.get('pht').setValue('0.00');
-    this.saleGroup.get('pttc').setValue('0.00');
+    //this.saleGroup.get('pht').setValue('0.00');
+    this.saleGroup.get('pttc').setValue('');
     this.saleGroup.markAsPristine();
     this.saleGroup.markAsUntouched();
    }
@@ -75,12 +75,17 @@ export class SaleComponent implements OnInit {
     var cmdAuto = this.saleGroup.value as Sale;
     cmdAuto.date = moment(new Date()).format("YYYY-MM-DD");
     cmdAuto.id = undefined;
-
+    var price_txt = this.saleGroup.get('pttc').value;
+    price_txt = price_txt.replace(',','.'); // hack french separator
+    cmdAuto.pttc = + price_txt;
+    cmdAuto.pttc = Math.round(((cmdAuto.pttc) + 0.00001) * 100) / 100;
+    cmdAuto.pht = Math.round(((cmdAuto.pttc / 1.2) + 0.00001) * 100) / 100;
     console.log("Submit sale :");
     console.log(cmdAuto);
 
-    this.saleService.addSale(cmdAuto);
-    this.searchAgain();
+    this.saleService.addSale(cmdAuto).subscribe( () => {
+      this.searchAgain();
+    });
   }
 
   // Next in list
@@ -99,9 +104,9 @@ export class SaleComponent implements OnInit {
   onCancelSale(sale : Sale)
   {
     console.log("Deleting sale :"+sale.id);
-    this.saleService.removeSale(sale.id);
-
-    this.searchAgain();
+    this.saleService.removeSale(sale.id).subscribe(() => {
+      this.searchAgain();
+    });
   }
 
 

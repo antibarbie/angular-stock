@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Sale } from './model/sale';
 import { environment } from 'src/environments/environment';
-import { Observable } from 'rxjs';
+import { Observable,  } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -23,33 +24,33 @@ export class SaleService {
   }
 
   /// Adds a new a command
-  addSale(sale: Sale ) {
+  addSale(sale: Sale ) : Observable<void> {
     console.log(`Posting to ${environment.apiUrl}/vente ...`);
     console.log(sale);
-
-    this.http.post<Sale>(
+    
+    return this.http.post<Sale>(
       `${environment.apiUrl}/vente`,  
       sale
-    ).subscribe(()=>{ 
+    ).pipe(map(()=>{ 
       console.log("Posted ok.")
-    });
+    }));
   }
 
   /// Changes a sale
-  modifySale(cmd: Sale ) {
-    this.http.put<Sale>(
+  modifySale(cmd: Sale ) : Observable<void> {
+    return this.http.put<Sale>(
       `${environment.apiUrl}/vente/${cmd.id}`,
       cmd
-    ).subscribe(()=>{ 
+    ).pipe(map(()=>{ 
       console.log("Modified ok.")
-    });
+    }));
   }
 
   /// Remove a sale
-  removeSale(id: number ) {
-    this.http.delete<Sale>(
-      `${environment.apiUrl}/vente/${id}`).subscribe(()=>{ 
+  removeSale(id: number ) : Observable<void> {
+    return this.http.delete<Sale>(
+      `${environment.apiUrl}/vente/${id}`).pipe(map(()=>{ 
         console.log("Deleted ok.")
-      });
+      }));
   }
 }

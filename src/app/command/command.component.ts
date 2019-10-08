@@ -80,8 +80,9 @@ export class CommandComponent implements OnInit {
     console.log(cmd);
     console.log(cmdAuto);
 
-    this.commandService.addCommand(cmd);
-    this.searchAgain();
+    this.commandService.addCommand(cmd).subscribe(() => {
+      this.searchAgain();
+    });
   }
 
   // Next in list
@@ -100,9 +101,9 @@ export class CommandComponent implements OnInit {
   onCancelCommand(cmd : Command)//id : number) 
   {
     console.log("Deleting command :"+cmd.id);
-    this.commandService.removeCommand(cmd.id);
-
-    this.searchAgain();
+    this.commandService.removeCommand(cmd.id).subscribe(() => {
+      this.searchAgain();
+    });
   }
 
   // Mark a command as received
@@ -111,9 +112,9 @@ export class CommandComponent implements OnInit {
     console.log("Received command :");
     console.log(cmd);
     cmd.expected = false; // modify !
-    this.commandService.modifyCommand(cmd);
-
-    this.searchAgain();
+    this.commandService.modifyCommand(cmd).subscribe(() => {
+      this.searchAgain();
+    });
 
     //this.commandService.getCommandById(id).subscribe( cmd => {
     //   cmd.expected = false; // modify !
