@@ -131,7 +131,9 @@ function stockList(inventory, added, removed)
   // Sales / sold products
 	var mapr = removed.reduce( (r,a) => { r[a.ref] = (+r[a.ref]||0) - (+a.qty); return r;}, mapa);
  // console.log(mapr);
-  return (Object.keys(mapr)).map(kr => ({ ref: kr, qty: mapr[kr], cmd: (map_expected[kr]||0) }));
+
+  //nb: éviter -1 stock en cas de vente sur commande
+  return (Object.keys(mapr)).map(kr => ({ ref: kr, qty: Math.max(0,mapr[kr]), cmd: (map_expected[kr]||0) }));
 }
 
 
@@ -273,7 +275,7 @@ function generateDataSTOCKDAY( current_hour, items, productmap )
 {
   var mydata= generateData(
          //Magasin;Code_Article;Code_Barres;Stock;Cde_Frn
-        ["Magasin","Code_Article","Code_Barres","Stock", "Cde_Frn"],
+        ["Magasin","Code_Article","Code_Barres","Marque","Stock", "Cde_Frn"],
         items
           .filter(i => productmap[i.ref]) // ELIMINER UN PRODUIT NON REFERENCE
           .map( (i) => ({
@@ -293,6 +295,7 @@ function generateDataSTOCKDAY( current_hour, items, productmap )
           var value_source = {
             "Code_Article": "ref",
             "Code_Barres": "ean",
+            "Marque": "marque",
             "Stock": "qty",
             "Cde_Frn": "cmd"
           }[column];
@@ -321,7 +324,7 @@ function generateDataCA( current_hour,itemslist, productmap )
         .filter(i => productmap[i.ref])  // ELIMINER UN PRODUIT NON REFERENCE
         .map( (i) => ({
           ref: i.ref,
-          date: i.date,
+          date: moment(i.date, "YYYY-MM-DD").format("DD/MM/YYYY"),
           qty: i.qty,
           pht: i.pht,
           pttc: i.pttc,
