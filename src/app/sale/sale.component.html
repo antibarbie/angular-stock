@@ -47,8 +47,11 @@
                  required>
 
                  <mat-error *ngIf="saleGroup.controls['ref'].hasError('minLength')">Saisir un code produit</mat-error>
-                 <mat-error *ngIf="saleGroup.controls['ref'].hasError('unknown')">Saisir un code produit</mat-error>
-       
+                 <mat-error *ngIf="saleGroup.controls['ref'].hasError('unknownproduct')">Produit inexistant</mat-error>
+                 <div *ngIf="saleGroup.controls['ref'].status === 'PENDING'">
+                   Checking...
+                 </div>
+
                  <mat-autocomplete #autoDestination="matAutocomplete">
                    <mat-option *ngFor="let product of filteredProducts$ | async" [value]="product.id">
                      <div><span>{{ product.id }}</span> <small> ({{product.marque}})</small></div>

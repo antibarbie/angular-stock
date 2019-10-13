@@ -29,7 +29,7 @@ export class SaleComponent implements OnInit {
     this.offset = 0;
 
     this.saleGroup = new FormGroup({
-      ref: new FormControl('', [ Validators.required, Validators.minLength(2)] ),// this.checkProductExists.bind(this)),
+      ref: new FormControl('', [ Validators.required, Validators.minLength(2)]  ,  this.productService.checkProductExists.bind(this.productService) ),
       qty: new FormControl('1', [ Validators.required, Validators.min(1)]),
       //pht: new FormControl('0.00', [ Validators.required ]),
       pttc: new FormControl('0.00', [ Validators.required ])
@@ -63,11 +63,6 @@ export class SaleComponent implements OnInit {
         debounceTime(300),
         switchMap(value => this.productService.getProducts(value, 10, 0) /* get 10 values max */)
       );
-  }
-
-  // Checks that the product really exists !
-  checkProductExists(control : FormControl) {
-    return undefined;
   }
 
   /// Click new sale

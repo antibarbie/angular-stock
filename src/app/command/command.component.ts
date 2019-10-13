@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { Observable } from 'rxjs';
+import { FormGroup, FormControl, Validators, ValidationErrors } from '@angular/forms';
+import { Observable, of } from 'rxjs';
 import { Product } from '../model/product';
 import { ProductService } from '../product.service';
 import { CommandService } from '../command.service';
 import { Command } from '../model/command';
 import * as moment from 'moment';
-import {switchMap, debounceTime} from 'rxjs/operators';
+import {first, switchMap, debounceTime, map, flatMap} from 'rxjs/operators';
 
 @Component({
   selector: 'app-command',
@@ -30,7 +30,7 @@ export class CommandComponent implements OnInit {
     this.offset = 0;
 
     this.commandGroup = new FormGroup({
-      ref: new FormControl('', [ Validators.required, Validators.minLength(2)] ),// this.checkProductExists.bind(this)),
+      ref: new FormControl('', [ Validators.required, Validators.minLength(2)] ,  this.productService.checkProductExists.bind(this.productService) ),
       qty: new FormControl('1', [ Validators.required, Validators.min(1)])
     });
    }
@@ -63,10 +63,6 @@ export class CommandComponent implements OnInit {
       );
   }
 
-  // Checks that the product really exists !
-  checkProductExists(control : FormControl) {
-    return undefined;
-  }
 
   /// Click new command
   onSubmitCommand() {

@@ -47,7 +47,10 @@ table > tr > td {
           required
           >
           <mat-error *ngIf="commandGroup.controls['ref'].hasError('minLength')">Saisir un code produit</mat-error>
-          <mat-error *ngIf="commandGroup.controls['ref'].hasError('unknown')">Saisir un code produit</mat-error>
+          <mat-error *ngIf="commandGroup.controls['ref'].hasError('unknownproduct')">Produit inexistant</mat-error>
+          <div *ngIf="commandGroup.controls['ref'].status === 'PENDING'">
+            Checking...
+          </div>
 
           <mat-autocomplete #autoDestination="matAutocomplete"> <!-- [displayWith]="displayFn"> -->
             <mat-option *ngFor="let product of filteredProducts$ | async" [value]="product.id">
