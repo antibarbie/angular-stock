@@ -226,6 +226,384 @@
       "expected": false,
       "date": "2019-10-16",
       "id": 21
+    },
+    {
+      "ref": "SN458S02ME",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-10-17",
+      "id": 22
+    },
+    {
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-10-24",
+      "id": 23
+    },
+    {
+      "ref": "DHL555BL",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-10-24",
+      "id": 24
+    },
+    {
+      "ref": "DHZ7305",
+      "qty": "2",
+      "expected": false,
+      "date": "2019-10-24",
+      "id": 25
+    },
+    {
+      "ref": "EX651FEB1F",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-10-29",
+      "id": 26
+    },
+    {
+      "ref": "WTN83207FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-10-29",
+      "id": 27
+    },
+    {
+      "ref": "KUR15A60",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-10-29",
+      "id": 28
+    },
+    {
+      "ref": "KIR24V21FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-07",
+      "id": 29
+    },
+    {
+      "ref": "WAJ28017FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-09",
+      "id": 30
+    },
+    {
+      "ref": "LZ7305",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-09",
+      "id": 31
+    },
+    {
+      "ref": "LZ73050",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-09",
+      "id": 32
+    },
+    {
+      "ref": "EX651FEB1F",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-09",
+      "id": 33
+    },
+    {
+      "ref": "HB578G5S0",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-09",
+      "id": 34
+    },
+    {
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-15",
+      "id": 35
+    },
+    {
+      "ref": "SN636X01AE",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-27",
+      "id": 36
+    },
+    {
+      "ref": "SKS51E22EU",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-27",
+      "id": 37
+    },
+    {
+      "ref": "EO6B6PB10",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-27",
+      "id": 38
+    },
+    {
+      "ref": "SMS25DW00E",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-27",
+      "id": 39
+    },
+    {
+      "ref": "HBA553BR0",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-27",
+      "id": 40
+    },
+    {
+      "ref": "WTN83208FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-28",
+      "id": 41
+    },
+    {
+      "ref": "SMS25GW02E",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-11-28",
+      "id": 42
+    },
+    {
+      "ref": "BBS611PCK",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 43
+    },
+    {
+      "ref": "HB675GBS1F",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 44
+    },
+    {
+      "ref": "B57CS24H0",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 45
+    },
+    {
+      "ref": "SN636X03IE",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 46
+    },
+    {
+      "ref": "WTR85V02FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 47
+    },
+    {
+      "ref": "WTR85V02FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 48
+    },
+    {
+      "ref": "KG56NXI30",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 49
+    },
+    {
+      "ref": "HB578G5S0",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-04",
+      "id": 50
+    },
+    {
+      "ref": "HBA553BR0",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-05",
+      "id": 51
+    },
+    {
+      "ref": "GSN58AW35",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-06",
+      "id": 52
+    },
+    {
+      "ref": "WAJ28007FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-11",
+      "id": 53
+    },
+    {
+      "ref": "SN558S09ME",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-11",
+      "id": 54
+    },
+    {
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-11",
+      "id": 55
+    },
+    {
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-11",
+      "id": 56
+    },
+    {
+      "ref": "ET611HE17F",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 57
+    },
+    {
+      "ref": "TDS2110",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 58
+    },
+    {
+      "ref": "EU651BEB1E",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 59
+    },
+    {
+      "ref": "KGN36NW30",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 60
+    },
+    {
+      "ref": "MC812M844",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 61
+    },
+    {
+      "ref": "HB675GBS1",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 62
+    },
+    {
+      "ref": "B57CR22N0",
+      "qty": "1",
+      "expected": false,
+      "date": "2019-12-14",
+      "id": 63
+    },
+    {
+      "ref": "KI86SAD30",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-03",
+      "id": 64
+    },
+    {
+      "ref": "HB578G5S0",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-03",
+      "id": 65
+    },
+    {
+      "ref": "EX652FEB1F",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-15",
+      "id": 66
+    },
+    {
+      "ref": "DSZ5201",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 67
+    },
+    {
+      "ref": "EX651FEB1F",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 68
+    },
+    {
+      "ref": "SN536B03NE",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 69
+    },
+    {
+      "ref": "HBG675BB1",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 70
+    },
+    {
+      "ref": "PKF645B17E",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 71
+    },
+    {
+      "ref": "TAS1007",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 72
+    },
+    {
+      "ref": "TAS1007",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-17",
+      "id": 73
+    },
+    {
+      "ref": "SMI46IS03E",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-30",
+      "id": 74
+    },
+    {
+      "ref": "SN536W03ME",
+      "qty": "1",
+      "expected": false,
+      "date": "2020-01-30",
+      "id": 75
     }
   ],
   "vente": [
@@ -234,55 +612,55 @@
       "date": "2019-10-01",
       "ref": "WM14T458FF",
       "qty": "1",
-      "pht": "349.20",
-      "pttc": "419.04"
+      "pht": 616.65,
+      "pttc": 739.99
     },
     {
       "id": 8,
       "date": "2019-10-01",
       "ref": "WT45G408FF",
       "qty": "1",
-      "pht": "317.77",
-      "pttc": "381.32"
+      "pht": 524.99,
+      "pttc": 629.99
     },
     {
       "id": 9,
       "date": "2019-10-03",
       "ref": "WUQ28418FF",
       "qty": "1",
-      "pht": "340.21",
-      "pttc": "408.25"
+      "pht": 446.66,
+      "pttc": 536
     },
     {
       "id": 10,
       "date": "2019-10-04",
       "ref": "PKE645CA1E",
       "qty": "1",
-      "pht": "218.03",
-      "pttc": "261.64"
+      "pht": 291.66,
+      "pttc": 350
     },
     {
       "id": 11,
       "date": "2019-10-04",
       "ref": "WAN28066FF",
       "qty": "1",
-      "pht": "288.63",
-      "pttc": "346.36"
+      "pht": 400,
+      "pttc": 480
     },
     {
       "id": 12,
       "date": "2019-10-05",
       "ref": "HXR39IH20",
       "qty": "1",
-      "pht": "380.45",
-      "pttc": "456.54"
+      "pht": 541.66,
+      "pttc": 650
     },
     {
       "ref": "SMV46MX03E",
       "qty": "1",
-      "pttc": 444.4,
+      "pttc": 779.99,
       "date": "2019-10-12",
-      "pht": 370.33,
+      "pht": 649.99,
       "id": 13
     },
     {
@@ -296,10 +674,370 @@
     {
       "ref": "WUQ28418FF",
       "qty": "1",
-      "pttc": 408.25,
+      "pttc": 649,
       "date": "2019-10-12",
-      "pht": 340.21,
+      "pht": 540.83,
       "id": 15
+    },
+    {
+      "ref": "WTN85207FF",
+      "qty": "1",
+      "pttc": 449,
+      "date": "2019-10-16",
+      "pht": 374.17,
+      "id": 16
+    },
+    {
+      "ref": "EH651BJB1E",
+      "qty": "1",
+      "pttc": 619.99,
+      "date": "2019-10-17",
+      "pht": 516.66,
+      "id": 17
+    },
+    {
+      "ref": "EX651FEB1F",
+      "qty": "1",
+      "pttc": 700,
+      "date": "2019-10-19",
+      "pht": 583.33,
+      "id": 18
+    },
+    {
+      "ref": "WTN83208FF",
+      "qty": "1",
+      "pttc": 629,
+      "date": "2019-10-19",
+      "pht": 524.17,
+      "id": 19
+    },
+    {
+      "ref": "SN458S02ME",
+      "qty": "1",
+      "pttc": 800,
+      "date": "2019-10-19",
+      "pht": 666.67,
+      "id": 20
+    },
+    {
+      "ref": "SMV46MX03E",
+      "qty": "1",
+      "pttc": 639,
+      "date": "2019-10-22",
+      "pht": 532.5,
+      "id": 21
+    },
+    {
+      "ref": "DHL555BL",
+      "qty": "1",
+      "pttc": 309.99,
+      "date": "2019-10-25",
+      "pht": 258.33,
+      "id": 22
+    },
+    {
+      "ref": "DHZ7305",
+      "qty": "2",
+      "pttc": 39.99,
+      "date": "2019-10-25",
+      "pht": 33.33,
+      "id": 23
+    },
+    {
+      "ref": "EX651FEB1F",
+      "qty": "1",
+      "pttc": 779,
+      "date": "2019-10-29",
+      "pht": 649.17,
+      "id": 24
+    },
+    {
+      "ref": "HB573ABR0",
+      "qty": "1",
+      "pttc": 674,
+      "date": "2019-10-30",
+      "pht": 561.67,
+      "id": 25
+    },
+    {
+      "ref": "HBA553BR0",
+      "qty": "1",
+      "pttc": 500,
+      "date": "2019-10-31",
+      "pht": 416.67,
+      "id": 26
+    },
+    {
+      "ref": "WAN28107FF",
+      "qty": "1",
+      "pttc": 449,
+      "date": "2019-11-02",
+      "pht": 374.17,
+      "id": 27
+    },
+    {
+      "ref": "KIR24V21FF",
+      "qty": "1",
+      "pttc": 452,
+      "date": "2019-11-07",
+      "pht": 376.67,
+      "id": 28
+    },
+    {
+      "ref": "LB55565",
+      "qty": "1",
+      "pttc": 300,
+      "date": "2019-11-14",
+      "pht": 250,
+      "id": 29
+    },
+    {
+      "ref": "LZ27001",
+      "qty": "1",
+      "pttc": 40,
+      "date": "2019-11-14",
+      "pht": 33.33,
+      "id": 30
+    },
+    {
+      "ref": "LZ27001",
+      "qty": "1",
+      "pttc": 40,
+      "date": "2019-11-14",
+      "pht": 33.33,
+      "id": 31
+    },
+    {
+      "ref": "WT45RV01FF",
+      "qty": "1",
+      "pttc": 609,
+      "date": "2019-11-27",
+      "pht": 507.5,
+      "id": 32
+    },
+    {
+      "ref": "SN636X01AE",
+      "qty": "1",
+      "pttc": 449,
+      "date": "2019-11-27",
+      "pht": 374.17,
+      "id": 33
+    },
+    {
+      "ref": "WTN83207FF",
+      "qty": "1",
+      "pttc": 449,
+      "date": "2019-11-27",
+      "pht": 374.17,
+      "id": 34
+    },
+    {
+      "ref": "HB578G5S0",
+      "qty": "1",
+      "pttc": 699.99,
+      "date": "2019-12-04",
+      "pht": 583.33,
+      "id": 35
+    },
+    {
+      "ref": "B57CS24H0",
+      "qty": "1",
+      "pttc": 1157,
+      "date": "2019-12-05",
+      "pht": 964.17,
+      "id": 36
+    },
+    {
+      "ref": "HB675GBS1F",
+      "qty": "1",
+      "pttc": 750,
+      "date": "2019-12-05",
+      "pht": 625,
+      "id": 37
+    },
+    {
+      "ref": "PUE631BB1E",
+      "qty": "1",
+      "pttc": 466,
+      "date": "2019-12-06",
+      "pht": 388.33,
+      "id": 38
+    },
+    {
+      "ref": "GSN58AW35",
+      "qty": "1",
+      "pttc": 1000,
+      "date": "2019-12-06",
+      "pht": 833.33,
+      "id": 39
+    },
+    {
+      "ref": "SN636X03IE",
+      "qty": "1",
+      "pttc": 579,
+      "date": "2019-12-06",
+      "pht": 482.5,
+      "id": 40
+    },
+    {
+      "ref": "KG56NXI30",
+      "qty": "1",
+      "pttc": 966,
+      "date": "2019-12-06",
+      "pht": 805,
+      "id": 41
+    },
+    {
+      "ref": "SN558S09ME",
+      "qty": "1",
+      "pttc": 790,
+      "date": "2019-12-14",
+      "pht": 658.33,
+      "id": 42
+    },
+    {
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "pttc": 459,
+      "date": "2019-12-14",
+      "pht": 382.5,
+      "id": 43
+    },
+    {
+      "ref": "HBA553BV0",
+      "qty": "1",
+      "pttc": 400,
+      "date": "2019-12-18",
+      "pht": 333.33,
+      "id": 44
+    },
+    {
+      "ref": "PKF645B17E",
+      "qty": "1",
+      "pttc": 300,
+      "date": "2019-12-18",
+      "pht": 250,
+      "id": 45
+    },
+    {
+      "ref": "B57CR22N0",
+      "qty": "1",
+      "pttc": 1215,
+      "date": "2019-12-31",
+      "pht": 1012.5,
+      "id": 46
+    },
+    {
+      "ref": "HB675GBS1",
+      "qty": "1",
+      "pttc": 969,
+      "date": "2019-12-31",
+      "pht": 807.5,
+      "id": 47
+    },
+    {
+      "ref": "ET611HE17F",
+      "qty": "1",
+      "pttc": 429,
+      "date": "2019-12-31",
+      "pht": 357.5,
+      "id": 48
+    },
+    {
+      "ref": "WTN83207FF",
+      "qty": "1",
+      "pttc": 449,
+      "date": "2019-12-31",
+      "pht": 374.17,
+      "id": 49
+    },
+    {
+      "ref": "WAN28066FF",
+      "qty": "1",
+      "pttc": 459,
+      "date": "2019-12-31",
+      "pht": 382.5,
+      "id": 50
+    },
+    {
+      "ref": "KI86SAD30",
+      "qty": "1",
+      "pttc": 1409,
+      "date": "2020-01-11",
+      "pht": 1174.17,
+      "id": 51
+    },
+    {
+      "ref": "EX651FEB1F",
+      "qty": "1",
+      "pttc": 549,
+      "date": "2020-01-15",
+      "pht": 457.5,
+      "id": 52
+    },
+    {
+      "ref": "WTR85V02FF",
+      "qty": "1",
+      "pttc": 599,
+      "date": "2020-01-17",
+      "pht": 499.17,
+      "id": 53
+    },
+    {
+      "ref": "EX652FEB1F",
+      "qty": "1",
+      "pttc": 549,
+      "date": "2020-01-17",
+      "pht": 457.5,
+      "id": 54
+    },
+    {
+      "ref": "KGN36NW30",
+      "qty": "1",
+      "pttc": 561,
+      "date": "2020-01-22",
+      "pht": 467.5,
+      "id": 55
+    },
+    {
+      "ref": "SN536B03NE",
+      "qty": "1",
+      "pttc": 606,
+      "date": "2020-01-22",
+      "pht": 505,
+      "id": 56
+    },
+    {
+      "ref": "WT45G408FF",
+      "qty": "1",
+      "pttc": 639.99,
+      "date": "2020-01-22",
+      "pht": 533.33,
+      "id": 57
+    },
+    {
+      "ref": "SMI46IS03E",
+      "qty": "1",
+      "pttc": 587,
+      "date": "2020-01-30",
+      "pht": 489.17,
+      "id": 58
+    },
+    {
+      "ref": "SN536W03ME",
+      "qty": "1",
+      "pttc": 687,
+      "date": "2020-01-30",
+      "pht": 572.5,
+      "id": 59
+    },
+    {
+      "ref": "TAS1007",
+      "qty": "1",
+      "pttc": 99,
+      "date": "2020-01-30",
+      "pht": 82.5,
+      "id": 60
     }
   ],
   "produit": [
